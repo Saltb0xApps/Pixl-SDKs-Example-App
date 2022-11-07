@@ -7,20 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		950CD6F1291911DA00AF724A /* PixlNFTsSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950CD6F0291911DA00AF724A /* PixlNFTsSDK.xcframework */; };
+		23113F4059854ACEED514807 /* Pods_PixlSDKExampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FAF5CD0040F15F57794083C /* Pods_PixlSDKExampleApp.framework */; };
 		9553B56B2918D961003F6E09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9553B56A2918D961003F6E09 /* AppDelegate.swift */; };
 		9553B56D2918D961003F6E09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9553B56C2918D961003F6E09 /* SceneDelegate.swift */; };
 		9553B56F2918D961003F6E09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9553B56E2918D961003F6E09 /* ViewController.swift */; };
 		9553B5722918D961003F6E09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9553B5702918D961003F6E09 /* Main.storyboard */; };
 		9553B5742918D962003F6E09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9553B5732918D962003F6E09 /* Assets.xcassets */; };
 		9553B5772918D962003F6E09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9553B5752918D962003F6E09 /* LaunchScreen.storyboard */; };
-		A0700FCEE4003BF0232A5E37 /* Pods_PixlSDKExampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA1A3887D2D0B6FFE82F47E /* Pods_PixlSDKExampleApp.framework */; };
+		95B7F3B52919203500F12D62 /* PixlNFTsSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950CD6F0291911DA00AF724A /* PixlNFTsSDK.xcframework */; };
+		95B7F3B62919203500F12D62 /* PixlNFTsSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 950CD6F0291911DA00AF724A /* PixlNFTsSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		95B7F3B72919203600F12D62 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				95B7F3B62919203500F12D62 /* PixlNFTsSDK.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		1FA1A3887D2D0B6FFE82F47E /* Pods_PixlSDKExampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PixlSDKExampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		837C544D268CB1607C949AFF /* Pods-PixlSDKExampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixlSDKExampleApp.debug.xcconfig"; path = "Target Support Files/Pods-PixlSDKExampleApp/Pods-PixlSDKExampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		0FAF5CD0040F15F57794083C /* Pods_PixlSDKExampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PixlSDKExampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		950CD6F0291911DA00AF724A /* PixlNFTsSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PixlNFTsSDK.xcframework; path = Pods/PixlNFTsSDK/PixlNFTsSDK.xcframework; sourceTree = "<group>"; };
+		950CD6F22919183B00AF724A /* PixlNFTsPlacementSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PixlNFTsPlacementSDK.xcframework; path = Pods/PixlNFTsPlacementSDK/PixlNFTsPlacementSDK.xcframework; sourceTree = "<group>"; };
 		9553B5672918D961003F6E09 /* PixlSDKExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixlSDKExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9553B56A2918D961003F6E09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9553B56C2918D961003F6E09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +44,8 @@
 		9553B5732918D962003F6E09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9553B5762918D962003F6E09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9553B5782918D962003F6E09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FFF882CF3AFE50EE4D146948 /* Pods-PixlSDKExampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixlSDKExampleApp.release.xcconfig"; path = "Target Support Files/Pods-PixlSDKExampleApp/Pods-PixlSDKExampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		BD6B9E86956A55937A3BCE56 /* Pods-PixlSDKExampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixlSDKExampleApp.debug.xcconfig"; path = "Target Support Files/Pods-PixlSDKExampleApp/Pods-PixlSDKExampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		FEE9ECB890DA3CFC7279991B /* Pods-PixlSDKExampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixlSDKExampleApp.release.xcconfig"; path = "Target Support Files/Pods-PixlSDKExampleApp/Pods-PixlSDKExampleApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,8 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				950CD6F1291911DA00AF724A /* PixlNFTsSDK.xcframework in Frameworks */,
-				A0700FCEE4003BF0232A5E37 /* Pods_PixlSDKExampleApp.framework in Frameworks */,
+				95B7F3B52919203500F12D62 /* PixlNFTsSDK.xcframework in Frameworks */,
+				23113F4059854ACEED514807 /* Pods_PixlSDKExampleApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,8 +64,8 @@
 		3437C5EF872F5374F1547049 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				837C544D268CB1607C949AFF /* Pods-PixlSDKExampleApp.debug.xcconfig */,
-				FFF882CF3AFE50EE4D146948 /* Pods-PixlSDKExampleApp.release.xcconfig */,
+				BD6B9E86956A55937A3BCE56 /* Pods-PixlSDKExampleApp.debug.xcconfig */,
+				FEE9ECB890DA3CFC7279991B /* Pods-PixlSDKExampleApp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -89,8 +105,9 @@
 		C095BFB794A963924BA61525 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				950CD6F22919183B00AF724A /* PixlNFTsPlacementSDK.xcframework */,
 				950CD6F0291911DA00AF724A /* PixlNFTsSDK.xcframework */,
-				1FA1A3887D2D0B6FFE82F47E /* Pods_PixlSDKExampleApp.framework */,
+				0FAF5CD0040F15F57794083C /* Pods_PixlSDKExampleApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -102,10 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9553B57B2918D962003F6E09 /* Build configuration list for PBXNativeTarget "PixlSDKExampleApp" */;
 			buildPhases = (
-				C1A60E19A797DD19F89AD2C5 /* [CP] Check Pods Manifest.lock */,
+				04400E175C7CC241870DD79A /* [CP] Check Pods Manifest.lock */,
 				9553B5632918D961003F6E09 /* Sources */,
 				9553B5642918D961003F6E09 /* Frameworks */,
 				9553B5652918D961003F6E09 /* Resources */,
+				95B7F3B72919203600F12D62 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,7 +181,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		C1A60E19A797DD19F89AD2C5 /* [CP] Check Pods Manifest.lock */ = {
+		04400E175C7CC241870DD79A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,6 +274,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -316,6 +335,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -336,7 +356,7 @@
 		};
 		9553B57C2918D962003F6E09 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 837C544D268CB1607C949AFF /* Pods-PixlSDKExampleApp.debug.xcconfig */;
+			baseConfigurationReference = BD6B9E86956A55937A3BCE56 /* Pods-PixlSDKExampleApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -365,7 +385,7 @@
 		};
 		9553B57D2918D962003F6E09 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFF882CF3AFE50EE4D146948 /* Pods-PixlSDKExampleApp.release.xcconfig */;
+			baseConfigurationReference = FEE9ECB890DA3CFC7279991B /* Pods-PixlSDKExampleApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

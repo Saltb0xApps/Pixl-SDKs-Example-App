@@ -1,0 +1,22 @@
+{
+  "name": "PixlNFTsSDK",
+  "version": "1.0.0",
+  "summary": "Mint NFTs & Create Smart Contracts on Polygon from any iOS app without any blockchain knowledge",
+  "homepage": "https://www.pixlapp.xyz",
+  "authors": {
+    "Akhil Tolani": "akhiltolani777@gmail.com"
+  },
+  "license": {
+    "type": "MIT",
+    "text": "MIT License"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source": {
+    "http": "https://github.com/Saltb0xApps/Pixl-NFTs-SDK/tree/main/PixlNFTsSDK.xcframework"
+  },
+  "ios": {
+    "vendored_frameworks": "PixlNFTsSDK.xcframework"
+  }
+}

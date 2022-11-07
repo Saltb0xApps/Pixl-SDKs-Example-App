@@ -15,6 +15,9 @@ class ViewController: UIViewController, PixlNFTsSDKDelegate {
         super.viewDidLoad()
         
         pixlMintSC.delegate = self
+        
+        self.smartContract()
+        self.mintNFT()
     }
 
     func smartContract() {
@@ -25,10 +28,10 @@ class ViewController: UIViewController, PixlNFTsSDKDelegate {
     }
     
     func didCompleteNFTMint(success: Bool, data: [String : Any], error: String?) {
-        
+        print("\(data)")
     }
     
     func didCompleteNFTSmartContract(success: Bool, data: [String : Any], error: String?) {
-        
+        print("\(data)")
     }
 }

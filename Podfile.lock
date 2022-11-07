@@ -1,0 +1,21 @@
+PODS:
+  - PixlNFTsSDK (1.0.0)
+
+DEPENDENCIES:
+  - PixlNFTsSDK (from `https://github.com/Saltb0xApps/Pixl-NFTs-SDK.git`)
+
+EXTERNAL SOURCES:
+  PixlNFTsSDK:
+    :git: https://github.com/Saltb0xApps/Pixl-NFTs-SDK.git
+
+CHECKOUT OPTIONS:
+  PixlNFTsSDK:
+    :commit: ec5e227a6d199664cfd24ccfea8c48ed88df3d78
+    :git: https://github.com/Saltb0xApps/Pixl-NFTs-SDK.git
+
+SPEC CHECKSUMS:
+  PixlNFTsSDK: 0e7b4175b55280feb60e3d08079272e1bf164e56
+
+PODFILE CHECKSUM: 747fe40bcb235faac448d6ac252d083d5559cccc
+
+COCOAPODS: 1.11.3

@@ -13,9 +13,7 @@
 		9553B5722918D961003F6E09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9553B5702918D961003F6E09 /* Main.storyboard */; };
 		9553B5742918D962003F6E09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9553B5732918D962003F6E09 /* Assets.xcassets */; };
 		9553B5772918D962003F6E09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9553B5752918D962003F6E09 /* LaunchScreen.storyboard */; };
-		9553B5822918D9CB003F6E09 /* PixlNFTsPlacementSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9553B57F2918D9CA003F6E09 /* PixlNFTsPlacementSDK.xcframework */; };
-		9553B5832918D9CB003F6E09 /* PixlNFTsSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9553B5802918D9CA003F6E09 /* PixlNFTsSDK.xcframework */; };
-		9553B5842918D9CB003F6E09 /* PixlNFTsDiscoverySDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9553B5812918D9CA003F6E09 /* PixlNFTsDiscoverySDK.xcframework */; };
+		9553B5882918E749003F6E09 /* PixlNFTsSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9553B5872918E749003F6E09 /* PixlNFTsSDK.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +25,7 @@
 		9553B5732918D962003F6E09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9553B5762918D962003F6E09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9553B5782918D962003F6E09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9553B57F2918D9CA003F6E09 /* PixlNFTsPlacementSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PixlNFTsPlacementSDK.xcframework; sourceTree = SOURCE_ROOT; };
-		9553B5802918D9CA003F6E09 /* PixlNFTsSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PixlNFTsSDK.xcframework; sourceTree = SOURCE_ROOT; };
-		9553B5812918D9CA003F6E09 /* PixlNFTsDiscoverySDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PixlNFTsDiscoverySDK.xcframework; sourceTree = SOURCE_ROOT; };
+		9553B5872918E749003F6E09 /* PixlNFTsSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PixlNFTsSDK.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,9 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9553B5832918D9CB003F6E09 /* PixlNFTsSDK.xcframework in Frameworks */,
-				9553B5842918D9CB003F6E09 /* PixlNFTsDiscoverySDK.xcframework in Frameworks */,
-				9553B5822918D9CB003F6E09 /* PixlNFTsPlacementSDK.xcframework in Frameworks */,
+				9553B5882918E749003F6E09 /* PixlNFTsSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,9 +59,7 @@
 		9553B5692918D961003F6E09 /* PixlSDKExampleApp */ = {
 			isa = PBXGroup;
 			children = (
-				9553B5812918D9CA003F6E09 /* PixlNFTsDiscoverySDK.xcframework */,
-				9553B57F2918D9CA003F6E09 /* PixlNFTsPlacementSDK.xcframework */,
-				9553B5802918D9CA003F6E09 /* PixlNFTsSDK.xcframework */,
+				9553B5872918E749003F6E09 /* PixlNFTsSDK.xcframework */,
 				9553B56A2918D961003F6E09 /* AppDelegate.swift */,
 				9553B56C2918D961003F6E09 /* SceneDelegate.swift */,
 				9553B56E2918D961003F6E09 /* ViewController.swift */,

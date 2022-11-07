@@ -7,17 +7,14 @@
 
 import UIKit
 import PixlNFTsSDK
-import PixlNFTsPlacementSDK
-import PixlNFTsDiscoverySDK
 
-class ViewController: UIViewController {
-    
-    let pixlMintSC = PixlNFTsSDK.init(license: "")
-    let pixlDiscovery = PixlNFTsDiscoverySDK.init()
-    let pixlPlacement = PixlNFTsPlacementSDK.init()
+class ViewController: UIViewController, PixlNFTsSDKDelegate {
+    let pixlMintSC = PixlNFTs.init(license: "")
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        pixlMintSC.delegate = self
     }
 
     func smartContract() {
@@ -25,5 +22,13 @@ class ViewController: UIViewController {
     }
     func mintNFT() {
         pixlMintSC.mintNFT(destinationWalletAddress: "0x...", contractAddress:"0x...", nftName: "", nftDescription: "", nftImageURL: "", nftAttachmentURL: "", nftExternalURL: "")
+    }
+    
+    func didCompleteNFTMint(success: Bool, data: [String : Any], error: String?) {
+        
+    }
+    
+    func didCompleteNFTSmartContract(success: Bool, data: [String : Any], error: String?) {
+        
     }
 }

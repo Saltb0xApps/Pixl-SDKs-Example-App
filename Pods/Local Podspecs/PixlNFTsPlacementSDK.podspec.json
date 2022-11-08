@@ -1,0 +1,22 @@
+{
+  "name": "PixlNFTsPlacementSDK",
+  "version": "1.0.7",
+  "summary": "place nfts from the polygon blockchain anywhere in AR with persistence",
+  "homepage": "https://www.pixlapp.xyz",
+  "authors": {
+    "Akhil Tolani": "akhiltolani777@gmail.com"
+  },
+  "license": {
+    "type": "MIT",
+    "text": "MIT License"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source": {
+    "http": "https://github.com/Saltb0xApps/Pixl-Placement-NFTs-SDK/tree/main/PixlNFTsPlacementSDK.xcframework"
+  },
+  "ios": {
+    "vendored_frameworks": "PixlNFTsPlacementSDK.xcframework"
+  }
+}

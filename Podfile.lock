@@ -1,21 +1,29 @@
 PODS:
+  - PixlNFTsPlacementSDK (1.0.7)
   - PixlNFTsSDK (1.0.0)
 
 DEPENDENCIES:
+  - PixlNFTsPlacementSDK (from `https://github.com/Saltb0xApps/Pixl-Placement-NFTs-SDK`)
   - PixlNFTsSDK (from `https://github.com/Saltb0xApps/Pixl-NFTs-SDK.git`)
 
 EXTERNAL SOURCES:
+  PixlNFTsPlacementSDK:
+    :git: https://github.com/Saltb0xApps/Pixl-Placement-NFTs-SDK
   PixlNFTsSDK:
     :git: https://github.com/Saltb0xApps/Pixl-NFTs-SDK.git
 
 CHECKOUT OPTIONS:
+  PixlNFTsPlacementSDK:
+    :commit: ac5b8aeec451cf8667c2293a57ed05cc2f123589
+    :git: https://github.com/Saltb0xApps/Pixl-Placement-NFTs-SDK
   PixlNFTsSDK:
     :commit: ec5e227a6d199664cfd24ccfea8c48ed88df3d78
     :git: https://github.com/Saltb0xApps/Pixl-NFTs-SDK.git
 
 SPEC CHECKSUMS:
+  PixlNFTsPlacementSDK: 564afb3287e5a40c88e3cb5c6a4efc1b198d26f8
   PixlNFTsSDK: 0e7b4175b55280feb60e3d08079272e1bf164e56
 
-PODFILE CHECKSUM: 747fe40bcb235faac448d6ac252d083d5559cccc
+PODFILE CHECKSUM: 575de3814ed62ffe9b9eb754ad669a251ba22793
 
 COCOAPODS: 1.11.3

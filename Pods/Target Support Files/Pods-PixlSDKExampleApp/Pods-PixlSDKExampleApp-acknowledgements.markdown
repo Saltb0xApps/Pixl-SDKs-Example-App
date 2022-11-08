@@ -1,6 +1,10 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
+## PixlNFTsPlacementSDK
+
+MIT License
+
 ## PixlNFTsSDK
 
 MIT License

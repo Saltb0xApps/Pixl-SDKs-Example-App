@@ -1,0 +1,11 @@
+framework module PixlNFTsPlacementSDK {
+  umbrella header "PixlNFTsPlacementSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module PixlNFTsPlacementSDK.Swift {
+  header "PixlNFTsPlacementSDK-Swift.h"
+  requires objc
+}

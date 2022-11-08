@@ -1,0 +1,1928 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PixlNFTsPlacementSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NFTAsset",
+        "printedName": "NFTAsset",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(token_address:token_id:metadata:name:token_uri:blockchain:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NFTAsset",
+                "printedName": "PixlNFTsPlacementSDK.NFTAsset",
+                "usr": "s:20PixlNFTsPlacementSDK8NFTAssetC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20PixlNFTsPlacementSDK8NFTAssetC13token_address0F3_id8metadata4name0F4_uri10blockchainACSSSg_A5Jtcfc",
+            "mangledName": "$s20PixlNFTsPlacementSDK8NFTAssetC13token_address0F3_id8metadata4name0F4_uri10blockchainACSSSg_A5Jtcfc",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NFTAsset",
+                "printedName": "PixlNFTsPlacementSDK.NFTAsset",
+                "usr": "s:20PixlNFTsPlacementSDK8NFTAssetC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NFTAsset",
+                "printedName": "PixlNFTsPlacementSDK.NFTAsset",
+                "usr": "s:20PixlNFTsPlacementSDK8NFTAssetC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20PixlNFTsPlacementSDK8NFTAssetC2eeoiySbAC_ACtFZ",
+            "mangledName": "$s20PixlNFTsPlacementSDK8NFTAssetC2eeoiySbAC_ACtFZ",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20PixlNFTsPlacementSDK8NFTAssetC4hash4intoys6HasherVz_tF",
+            "mangledName": "$s20PixlNFTsPlacementSDK8NFTAssetC4hash4intoys6HasherVz_tF",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getImageURL",
+            "printedName": "getImageURL()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20PixlNFTsPlacementSDK8NFTAssetC11getImageURLSSyF",
+            "mangledName": "$s20PixlNFTsPlacementSDK8NFTAssetC11getImageURLSSyF",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAnimationURL",
+            "printedName": "getAnimationURL()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20PixlNFTsPlacementSDK8NFTAssetC15getAnimationURLSSyF",
+            "mangledName": "$s20PixlNFTsPlacementSDK8NFTAssetC15getAnimationURLSSyF",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchUpdateMetadata",
+            "printedName": "fetchUpdateMetadata(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool, Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20PixlNFTsPlacementSDK8NFTAssetC19fetchUpdateMetadata10completionyySb_SStc_tF",
+            "mangledName": "$s20PixlNFTsPlacementSDK8NFTAssetC19fetchUpdateMetadata10completionyySb_SStc_tF",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getIPFSFormatted",
+            "printedName": "getIPFSFormatted(ipfsURL:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20PixlNFTsPlacementSDK8NFTAssetC16getIPFSFormatted7ipfsURLS2S_tF",
+            "mangledName": "$s20PixlNFTsPlacementSDK8NFTAssetC16getIPFSFormatted7ipfsURLS2S_tF",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getName",
+            "printedName": "getName()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20PixlNFTsPlacementSDK8NFTAssetC7getNameSSyF",
+            "mangledName": "$s20PixlNFTsPlacementSDK8NFTAssetC7getNameSSyF",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDescription",
+            "printedName": "getDescription()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20PixlNFTsPlacementSDK8NFTAssetC14getDescriptionSSyF",
+            "mangledName": "$s20PixlNFTsPlacementSDK8NFTAssetC14getDescriptionSSyF",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getExternalURL",
+            "printedName": "getExternalURL()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20PixlNFTsPlacementSDK8NFTAssetC14getExternalURLSSyF",
+            "mangledName": "$s20PixlNFTsPlacementSDK8NFTAssetC14getExternalURLSSyF",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAttributes",
+            "printedName": "getAttributes()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[[Swift.String : Any]]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20PixlNFTsPlacementSDK8NFTAssetC13getAttributesSaySDySSypGGyF",
+            "mangledName": "$s20PixlNFTsPlacementSDK8NFTAssetC13getAttributesSaySDySSypGGyF",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NFTAsset",
+                "printedName": "PixlNFTsPlacementSDK.NFTAsset",
+                "usr": "s:20PixlNFTsPlacementSDK8NFTAssetC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20PixlNFTsPlacementSDK8NFTAssetC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s20PixlNFTsPlacementSDK8NFTAssetC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20PixlNFTsPlacementSDK8NFTAssetC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s20PixlNFTsPlacementSDK8NFTAssetC6encode2toys7Encoder_p_tKF",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20PixlNFTsPlacementSDK8NFTAssetC9hashValueSivp",
+            "mangledName": "$s20PixlNFTsPlacementSDK8NFTAssetC9hashValueSivp",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20PixlNFTsPlacementSDK8NFTAssetC9hashValueSivg",
+                "mangledName": "$s20PixlNFTsPlacementSDK8NFTAssetC9hashValueSivg",
+                "moduleName": "PixlNFTsPlacementSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20PixlNFTsPlacementSDK8NFTAssetC",
+        "mangledName": "$s20PixlNFTsPlacementSDK8NFTAssetC",
+        "moduleName": "PixlNFTsPlacementSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PixlNFTsPlacementSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "PixlNFTsPlacementSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "PixlNFTsPlacementSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PixlNFTsPlacementSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "PixlNFTsPlacementSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PixlNFTsPlacementSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PixlNFTsPlacementSDKDelegate",
+        "printedName": "PixlNFTsPlacementSDKDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didCompleteNFTPlacement",
+            "printedName": "didCompleteNFTPlacement(success:data:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20PixlNFTsPlacementSDK0abC11SDKDelegateP23didCompleteNFTPlacement7success4data5errorySb_SDySSypGSSSgtF",
+            "mangledName": "$s20PixlNFTsPlacementSDK0abC11SDKDelegateP23didCompleteNFTPlacement7success4data5errorySb_SDySSypGSSSgtF",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PixlNFTsPlacementSDK.PixlNFTsPlacementSDKDelegate>",
+            "sugared_genericSig": "<Self where Self : PixlNFTsPlacementSDK.PixlNFTsPlacementSDKDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:20PixlNFTsPlacementSDK0abC11SDKDelegateP",
+        "mangledName": "$s20PixlNFTsPlacementSDK0abC11SDKDelegateP",
+        "moduleName": "PixlNFTsPlacementSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PixlNFTsPlacementViewController",
+        "printedName": "PixlNFTsPlacementViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "licenseKey",
+            "printedName": "licenseKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20PixlNFTsPlacementSDK0abC14ViewControllerC10licenseKeySSSgvp",
+            "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC10licenseKeySSSgvp",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20PixlNFTsPlacementSDK0abC14ViewControllerC10licenseKeySSSgvg",
+                "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC10licenseKeySSSgvg",
+                "moduleName": "PixlNFTsPlacementSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20PixlNFTsPlacementSDK0abC14ViewControllerC10licenseKeySSSgvs",
+                "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC10licenseKeySSSgvs",
+                "moduleName": "PixlNFTsPlacementSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20PixlNFTsPlacementSDK0abC14ViewControllerC10licenseKeySSSgvM",
+                "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC10licenseKeySSSgvM",
+                "moduleName": "PixlNFTsPlacementSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "creatorWalletAddress",
+            "printedName": "creatorWalletAddress",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20PixlNFTsPlacementSDK0abC14ViewControllerC20creatorWalletAddressSSSgvp",
+            "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC20creatorWalletAddressSSSgvp",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20PixlNFTsPlacementSDK0abC14ViewControllerC20creatorWalletAddressSSSgvg",
+                "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC20creatorWalletAddressSSSgvg",
+                "moduleName": "PixlNFTsPlacementSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20PixlNFTsPlacementSDK0abC14ViewControllerC20creatorWalletAddressSSSgvs",
+                "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC20creatorWalletAddressSSSgvs",
+                "moduleName": "PixlNFTsPlacementSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20PixlNFTsPlacementSDK0abC14ViewControllerC20creatorWalletAddressSSSgvM",
+                "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC20creatorWalletAddressSSSgvM",
+                "moduleName": "PixlNFTsPlacementSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "placementNFT",
+            "printedName": "placementNFT",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PixlNFTsPlacementSDK.NFTAsset?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NFTAsset",
+                    "printedName": "PixlNFTsPlacementSDK.NFTAsset",
+                    "usr": "s:20PixlNFTsPlacementSDK8NFTAssetC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20PixlNFTsPlacementSDK0abC14ViewControllerC12placementNFTAA8NFTAssetCSgvp",
+            "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC12placementNFTAA8NFTAssetCSgvp",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PixlNFTsPlacementSDK.NFTAsset?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFTAsset",
+                        "printedName": "PixlNFTsPlacementSDK.NFTAsset",
+                        "usr": "s:20PixlNFTsPlacementSDK8NFTAssetC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20PixlNFTsPlacementSDK0abC14ViewControllerC12placementNFTAA8NFTAssetCSgvg",
+                "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC12placementNFTAA8NFTAssetCSgvg",
+                "moduleName": "PixlNFTsPlacementSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PixlNFTsPlacementSDK.NFTAsset?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFTAsset",
+                        "printedName": "PixlNFTsPlacementSDK.NFTAsset",
+                        "usr": "s:20PixlNFTsPlacementSDK8NFTAssetC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20PixlNFTsPlacementSDK0abC14ViewControllerC12placementNFTAA8NFTAssetCSgvs",
+                "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC12placementNFTAA8NFTAssetCSgvs",
+                "moduleName": "PixlNFTsPlacementSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20PixlNFTsPlacementSDK0abC14ViewControllerC12placementNFTAA8NFTAssetCSgvM",
+                "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC12placementNFTAA8NFTAssetCSgvM",
+                "moduleName": "PixlNFTsPlacementSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "PixlNFTsPlacementSDK.PixlNFTsPlacementSDKDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20PixlNFTsPlacementSDK0abC14ViewControllerC8delegateAA0abC11SDKDelegate_pSgvp",
+            "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC8delegateAA0abC11SDKDelegate_pSgvp",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PixlNFTsPlacementSDK.PixlNFTsPlacementSDKDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PixlNFTsPlacementSDKDelegate",
+                        "printedName": "PixlNFTsPlacementSDK.PixlNFTsPlacementSDKDelegate",
+                        "usr": "s:20PixlNFTsPlacementSDK0abC11SDKDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20PixlNFTsPlacementSDK0abC14ViewControllerC8delegateAA0abC11SDKDelegate_pSgvg",
+                "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC8delegateAA0abC11SDKDelegate_pSgvg",
+                "moduleName": "PixlNFTsPlacementSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PixlNFTsPlacementSDK.PixlNFTsPlacementSDKDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PixlNFTsPlacementSDKDelegate",
+                        "printedName": "PixlNFTsPlacementSDK.PixlNFTsPlacementSDKDelegate",
+                        "usr": "s:20PixlNFTsPlacementSDK0abC11SDKDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20PixlNFTsPlacementSDK0abC14ViewControllerC8delegateAA0abC11SDKDelegate_pSgvs",
+                "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC8delegateAA0abC11SDKDelegate_pSgvs",
+                "moduleName": "PixlNFTsPlacementSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20PixlNFTsPlacementSDK0abC14ViewControllerC8delegateAA0abC11SDKDelegate_pSgvM",
+                "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC8delegateAA0abC11SDKDelegate_pSgvM",
+                "moduleName": "PixlNFTsPlacementSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PixlNFTsPlacementSDK@objc(cs)PixlNFTsPlacementViewController(im)viewDidLoad",
+            "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC11viewDidLoadyyF",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceiveMemoryWarning",
+            "printedName": "didReceiveMemoryWarning()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PixlNFTsPlacementSDK@objc(cs)PixlNFTsPlacementViewController(im)didReceiveMemoryWarning",
+            "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC23didReceiveMemoryWarningyyF",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "overriding": true,
+            "objc_name": "didReceiveMemoryWarning",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLayoutSubviews",
+            "printedName": "viewDidLayoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PixlNFTsPlacementSDK@objc(cs)PixlNFTsPlacementViewController(im)viewDidLayoutSubviews",
+            "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC21viewDidLayoutSubviewsyyF",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "overriding": true,
+            "objc_name": "viewDidLayoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillAppear",
+            "printedName": "viewWillAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PixlNFTsPlacementSDK@objc(cs)PixlNFTsPlacementViewController(im)viewWillAppear:",
+            "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC14viewWillAppearyySbF",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "overriding": true,
+            "objc_name": "viewWillAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidAppear",
+            "printedName": "viewDidAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PixlNFTsPlacementSDK@objc(cs)PixlNFTsPlacementViewController(im)viewDidAppear:",
+            "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC13viewDidAppearyySbF",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "overriding": true,
+            "objc_name": "viewDidAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillDisappear",
+            "printedName": "viewWillDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PixlNFTsPlacementSDK@objc(cs)PixlNFTsPlacementViewController(im)viewWillDisappear:",
+            "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC17viewWillDisappearyySbF",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "overriding": true,
+            "objc_name": "viewWillDisappear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dismissAction",
+            "printedName": "dismissAction()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PixlNFTsPlacementSDK@objc(cs)PixlNFTsPlacementViewController(im)dismissAction",
+            "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC13dismissActionyyF",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "preferredStatusBarStyle",
+            "printedName": "preferredStatusBarStyle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIStatusBarStyle",
+                "printedName": "UIKit.UIStatusBarStyle",
+                "usr": "c:@E@UIStatusBarStyle"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PixlNFTsPlacementSDK@objc(cs)PixlNFTsPlacementViewController(py)preferredStatusBarStyle",
+            "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC23preferredStatusBarStyleSo08UIStatusiJ0Vvp",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "overriding": true,
+            "objc_name": "preferredStatusBarStyle",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIStatusBarStyle",
+                    "printedName": "UIKit.UIStatusBarStyle",
+                    "usr": "c:@E@UIStatusBarStyle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PixlNFTsPlacementSDK@objc(cs)PixlNFTsPlacementViewController(im)preferredStatusBarStyle",
+                "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC23preferredStatusBarStyleSo08UIStatusiJ0Vvg",
+                "moduleName": "PixlNFTsPlacementSDK",
+                "overriding": true,
+                "objc_name": "preferredStatusBarStyle",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "touchesEnded",
+            "printedName": "touchesEnded(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<UIKit.UITouch>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITouch",
+                    "printedName": "UIKit.UITouch",
+                    "usr": "c:objc(cs)UITouch"
+                  }
+                ],
+                "usr": "s:Sh"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIEvent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEvent",
+                    "printedName": "UIKit.UIEvent",
+                    "usr": "c:objc(cs)UIEvent"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PixlNFTsPlacementSDK@objc(cs)PixlNFTsPlacementViewController(im)touchesEnded:withEvent:",
+            "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC12touchesEnded_4withyShySo7UITouchCG_So7UIEventCSgtF",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "overriding": true,
+            "objc_name": "touchesEnded:withEvent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addAnchor",
+            "printedName": "addAnchor(withTransform:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "simd_float4x4",
+                "printedName": "simd.simd_float4x4",
+                "usr": "c:@SA@simd_float4x4"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20PixlNFTsPlacementSDK0abC14ViewControllerC9addAnchor13withTransformySo13simd_float4x4a_tF",
+            "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC9addAnchor13withTransformySo13simd_float4x4a_tF",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "saveAnchor",
+            "printedName": "saveAnchor()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20PixlNFTsPlacementSDK0abC14ViewControllerC10saveAnchoryyF",
+            "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC10saveAnchoryyF",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PixlNFTsPlacementViewController",
+                "printedName": "PixlNFTsPlacementSDK.PixlNFTsPlacementViewController",
+                "usr": "c:@M@PixlNFTsPlacementSDK@objc(cs)PixlNFTsPlacementViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PixlNFTsPlacementSDK@objc(cs)PixlNFTsPlacementViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PixlNFTsPlacementSDK.PixlNFTsPlacementViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PixlNFTsPlacementViewController",
+                    "printedName": "PixlNFTsPlacementSDK.PixlNFTsPlacementViewController",
+                    "usr": "c:@M@PixlNFTsPlacementSDK@objc(cs)PixlNFTsPlacementViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PixlNFTsPlacementSDK@objc(cs)PixlNFTsPlacementViewController(im)initWithCoder:",
+            "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "renderer",
+            "printedName": "renderer(_:didUpdate:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNSceneRenderer",
+                "printedName": "SceneKit.SCNSceneRenderer",
+                "usr": "c:objc(pl)SCNSceneRenderer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNNode",
+                "printedName": "SceneKit.SCNNode",
+                "usr": "c:objc(cs)SCNNode"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARAnchor",
+                "printedName": "ARKit.ARAnchor",
+                "usr": "c:objc(cs)ARAnchor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PixlNFTsPlacementSDK@objc(cs)PixlNFTsPlacementViewController(im)renderer:didUpdateNode:forAnchor:",
+            "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC8renderer_9didUpdate3forySo16SCNSceneRenderer_p_So7SCNNodeCSo8ARAnchorCtF",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "objc_name": "renderer:didUpdateNode:forAnchor:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "renderer",
+            "printedName": "renderer(_:nodeFor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SceneKit.SCNNode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCNNode",
+                    "printedName": "SceneKit.SCNNode",
+                    "usr": "c:objc(cs)SCNNode"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNSceneRenderer",
+                "printedName": "SceneKit.SCNSceneRenderer",
+                "usr": "c:objc(pl)SCNSceneRenderer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARAnchor",
+                "printedName": "ARKit.ARAnchor",
+                "usr": "c:objc(cs)ARAnchor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PixlNFTsPlacementSDK@objc(cs)PixlNFTsPlacementViewController(im)renderer:nodeForAnchor:",
+            "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC8renderer_7nodeForSo7SCNNodeCSgSo16SCNSceneRenderer_p_So8ARAnchorCtF",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "objc_name": "renderer:nodeForAnchor:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "renderer",
+            "printedName": "renderer(_:didAdd:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNSceneRenderer",
+                "printedName": "SceneKit.SCNSceneRenderer",
+                "usr": "c:objc(pl)SCNSceneRenderer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNNode",
+                "printedName": "SceneKit.SCNNode",
+                "usr": "c:objc(cs)SCNNode"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARAnchor",
+                "printedName": "ARKit.ARAnchor",
+                "usr": "c:objc(cs)ARAnchor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PixlNFTsPlacementSDK@objc(cs)PixlNFTsPlacementViewController(im)renderer:didAddNode:forAnchor:",
+            "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC8renderer_6didAdd3forySo16SCNSceneRenderer_p_So7SCNNodeCSo8ARAnchorCtF",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "objc_name": "renderer:didAddNode:forAnchor:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "renderer",
+            "printedName": "renderer(_:didRemove:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNSceneRenderer",
+                "printedName": "SceneKit.SCNSceneRenderer",
+                "usr": "c:objc(pl)SCNSceneRenderer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNNode",
+                "printedName": "SceneKit.SCNNode",
+                "usr": "c:objc(cs)SCNNode"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARAnchor",
+                "printedName": "ARKit.ARAnchor",
+                "usr": "c:objc(cs)ARAnchor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PixlNFTsPlacementSDK@objc(cs)PixlNFTsPlacementViewController(im)renderer:didRemoveNode:forAnchor:",
+            "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC8renderer_9didRemove3forySo16SCNSceneRenderer_p_So7SCNNodeCSo8ARAnchorCtF",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "objc_name": "renderer:didRemoveNode:forAnchor:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PixlNFTsPlacementSDK@objc(cs)PixlNFTsPlacementViewController",
+        "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC",
+        "moduleName": "PixlNFTsPlacementSDK",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPlacementSDK\/PixlNFTsPlacementSDK\/Managers\/PixlLocationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 354,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPlacementSDK\/PixlNFTsPlacementSDK\/Controllers\/PixlNFTsPlacementViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 201,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPlacementSDK\/PixlNFTsPlacementSDK\/Controllers\/PixlNFTsPlacementViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 237,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPlacementSDK\/PixlNFTsPlacementSDK\/Controllers\/PixlNFTsPlacementViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 267,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPlacementSDK\/PixlNFTsPlacementSDK\/Controllers\/PixlNFTsPlacementViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 298,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPlacementSDK\/PixlNFTsPlacementSDK\/Controllers\/PixlNFTsPlacementViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 201,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPlacementSDK\/PixlNFTsPlacementSDK\/Controllers\/PixlNFTsPlacementViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 237,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPlacementSDK\/PixlNFTsPlacementSDK\/Controllers\/PixlNFTsPlacementViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 267,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPlacementSDK\/PixlNFTsPlacementSDK\/Controllers\/PixlNFTsPlacementViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 298,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPlacementSDK\/PixlNFTsPlacementSDK\/Controllers\/PixlNFTsPlacementViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 201,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPlacementSDK\/PixlNFTsPlacementSDK\/Controllers\/PixlNFTsPlacementViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 237,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPlacementSDK\/PixlNFTsPlacementSDK\/Controllers\/PixlNFTsPlacementViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 267,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPlacementSDK\/PixlNFTsPlacementSDK\/Controllers\/PixlNFTsPlacementViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 298,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPlacementSDK\/PixlNFTsPlacementSDK\/Controllers\/PixlNFTsPlacementViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 897,
+      "length": 54,
+      "value": "\"https:\/\/pixl-placements-sdk.herokuapp.com\/placements\""
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPlacementSDK\/PixlNFTsPlacementSDK\/Controllers\/PixlNFTsPlacementViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1296,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPlacementSDK\/PixlNFTsPlacementSDK\/Controllers\/PixlNFTsPlacementViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1330,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}

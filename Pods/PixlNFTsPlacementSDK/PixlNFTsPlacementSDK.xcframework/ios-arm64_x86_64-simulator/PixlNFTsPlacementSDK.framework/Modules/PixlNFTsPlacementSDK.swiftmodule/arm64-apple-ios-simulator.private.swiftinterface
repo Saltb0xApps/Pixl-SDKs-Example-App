@@ -1,0 +1,64 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PixlNFTsPlacementSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import ARKit
+import CoreLocation
+import Foundation
+@_exported import PixlNFTsPlacementSDK
+import SceneKit
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+public class NFTAsset : Swift.Codable, Swift.Hashable {
+  public init(token_address: Swift.String? = nil, token_id: Swift.String? = nil, metadata: Swift.String? = nil, name: Swift.String? = nil, token_uri: Swift.String? = nil, blockchain: Swift.String? = nil)
+  public static func == (lhs: PixlNFTsPlacementSDK.NFTAsset, rhs: PixlNFTsPlacementSDK.NFTAsset) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public typealias CompletionHandler = (_ success: Swift.Bool, _ metadataURL: Swift.String) -> Swift.Void
+  public func getImageURL() -> Swift.String
+  public func getAnimationURL() -> Swift.String
+  public func fetchUpdateMetadata(completion: @escaping PixlNFTsPlacementSDK.NFTAsset.CompletionHandler)
+  public func getIPFSFormatted(ipfsURL: Swift.String) -> Swift.String
+  public func getName() -> Swift.String
+  public func getDescription() -> Swift.String
+  public func getExternalURL() -> Swift.String
+  public func getAttributes() -> [[Swift.String : Any]]
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+  required public init(from decoder: Swift.Decoder) throws
+}
+public protocol PixlNFTsPlacementSDKDelegate : AnyObject {
+  func didCompleteNFTPlacement(success: Swift.Bool, data: [Swift.String : Any], error: Swift.String?)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class PixlNFTsPlacementViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public var licenseKey: Swift.String?
+  @_Concurrency.MainActor(unsafe) public var creatorWalletAddress: Swift.String?
+  @_Concurrency.MainActor(unsafe) public var placementNFT: PixlNFTsPlacementSDK.NFTAsset?
+  @_Concurrency.MainActor(unsafe) weak public var delegate: PixlNFTsPlacementSDK.PixlNFTsPlacementSDKDelegate?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func didReceiveMemoryWarning()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @objc @_Concurrency.MainActor(unsafe) public func dismissAction()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func touchesEnded(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) public func addAnchor(withTransform transform: simd.matrix_float4x4)
+  @_Concurrency.MainActor(unsafe) public func saveAnchor()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension PixlNFTsPlacementSDK.PixlNFTsPlacementViewController : ARKit.ARSCNViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func renderer(_ renderer: SceneKit.SCNSceneRenderer, didUpdate node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func renderer(_ renderer: SceneKit.SCNSceneRenderer, nodeFor anchor: ARKit.ARAnchor) -> SceneKit.SCNNode?
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func renderer(_ renderer: SceneKit.SCNSceneRenderer, didAdd node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func renderer(_ renderer: SceneKit.SCNSceneRenderer, didRemove node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
+}

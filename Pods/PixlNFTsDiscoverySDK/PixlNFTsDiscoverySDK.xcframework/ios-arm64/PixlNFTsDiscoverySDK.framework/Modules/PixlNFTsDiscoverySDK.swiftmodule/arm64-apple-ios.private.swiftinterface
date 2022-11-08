@@ -1,0 +1,435 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PixlNFTsDiscoverySDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import ARKit
+import CoreLocation
+import Foundation
+import MapKit
+@_exported import PixlNFTsDiscoverySDK
+import SceneKit
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import simd
+public typealias BoxBuilder = (_ distance: CoreFoundation.CGFloat) -> SceneKit.SCNBox
+@objc @_Concurrency.MainActor(unsafe) public class PolylineNode : PixlNFTsDiscoverySDK.LocationNode {
+  @_Concurrency.MainActor(unsafe) public var locationNodes: [PixlNFTsDiscoverySDK.LocationNode] {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) final public let polyline: MapKit.MKPolyline
+  @_Concurrency.MainActor(unsafe) final public let altitude: CoreLocation.CLLocationDistance
+  @_Concurrency.MainActor(unsafe) final public let boxBuilder: PixlNFTsDiscoverySDK.BoxBuilder
+  @_Concurrency.MainActor(unsafe) public init(polyline: MapKit.MKPolyline, altitude: CoreLocation.CLLocationDistance, tag: Swift.String? = nil, boxBuilder: PixlNFTsDiscoverySDK.BoxBuilder? = nil)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+extension Swift.Double {
+  public var short: Swift.String {
+    get
+  }
+}
+extension Swift.Float {
+  public var short: Swift.String {
+    get
+  }
+}
+extension Swift.Int {
+  public var short: Swift.String {
+    get
+  }
+  public var short3: Swift.String {
+    get
+  }
+}
+public struct LocationTranslation {
+  public var latitudeTranslation: Swift.Double
+  public var longitudeTranslation: Swift.Double
+  public var altitudeTranslation: Swift.Double
+  public init(latitudeTranslation: Swift.Double, longitudeTranslation: Swift.Double, altitudeTranslation: Swift.Double)
+}
+extension CoreLocation.CLLocation {
+  convenience public init(coordinate: CoreLocation.CLLocationCoordinate2D, altitude: CoreLocation.CLLocationDistance)
+  public func translation(toLocation location: CoreLocation.CLLocation) -> PixlNFTsDiscoverySDK.LocationTranslation
+  public func translatedLocation(with translation: PixlNFTsDiscoverySDK.LocationTranslation) -> CoreLocation.CLLocation
+  public func bearing(between point: CoreLocation.CLLocation) -> Swift.Double
+  public func approxMidpoint(to: CoreLocation.CLLocation) -> CoreLocation.CLLocation
+}
+extension CoreLocation.CLLocation {
+  public var debugLog: Swift.String {
+    get
+  }
+}
+extension CoreLocation.CLLocationCoordinate2D {
+  public func coordinateWithBearing(bearing: Swift.Double, distanceMeters: Swift.Double) -> CoreLocation.CLLocationCoordinate2D
+  public func earthRadiusMeters() -> Swift.Double
+}
+@objc @_Concurrency.MainActor(unsafe) open class LocationAnnotationNode : PixlNFTsDiscoverySDK.LocationNode {
+  @_Concurrency.MainActor(unsafe) final public let annotationNode: SceneKit.SCNNode
+  @_Concurrency.MainActor(unsafe) public var annotationHeightAdjustmentFactor: Swift.Double
+  @_Concurrency.MainActor(unsafe) public init(location: CoreLocation.CLLocation?, view: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) public init(location: CoreLocation.CLLocation?, layer: QuartzCore.CALayer)
+  @_Concurrency.MainActor(unsafe) public init(location: CoreLocation.CLLocation?, node: SceneKit.SCNNode)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+extension UIKit.UIView {
+  @available(iOS 10.0, *)
+  @_Concurrency.MainActor(unsafe) public var image: UIKit.UIImage {
+    get
+  }
+}
+@objc @_Concurrency.MainActor(unsafe) open class AnnotationNode : SceneKit.SCNNode {
+  @_Concurrency.MainActor(unsafe) public var view: UIKit.UIView?
+  @_Concurrency.MainActor(unsafe) public var image: UIKit.UIImage?
+  @_Concurrency.MainActor(unsafe) public var layer: QuartzCore.CALayer?
+  @_Concurrency.MainActor(unsafe) public var node: SceneKit.SCNNode?
+  @_Concurrency.MainActor(unsafe) public init(view: UIKit.UIView?, image: UIKit.UIImage?, layer: QuartzCore.CALayer? = nil)
+  @_Concurrency.MainActor(unsafe) public init(n: SceneKit.SCNNode?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_Concurrency.MainActor(unsafe) open class LocationNode : SceneKit.SCNNode {
+  @_Concurrency.MainActor(unsafe) public var location: CoreLocation.CLLocation!
+  @_Concurrency.MainActor(unsafe) public var tag: Swift.String?
+  @_Concurrency.MainActor(unsafe) public var locationConfirmed: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var continuallyAdjustNodePositionWhenWithinRange: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var continuallyUpdatePositionAndScale: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var scaleRelativeToDistance: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var ignoreAltitude: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var scalingScheme: PixlNFTsDiscoverySDK.ScalingScheme
+  @_Concurrency.MainActor(unsafe) public init(location: CoreLocation.CLLocation?, tag: Swift.String? = nil)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+@available(iOS 11.0, *)
+extension PixlNFTsDiscoverySDK.SceneLocationView : ARKit.ARSCNViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func renderer(_ renderer: SceneKit.SCNSceneRenderer, nodeFor anchor: ARKit.ARAnchor) -> SceneKit.SCNNode?
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func renderer(_ renderer: SceneKit.SCNSceneRenderer, didAdd node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func renderer(_ renderer: SceneKit.SCNSceneRenderer, willUpdate node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func renderer(_ renderer: SceneKit.SCNSceneRenderer, didUpdate node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func renderer(_ renderer: SceneKit.SCNSceneRenderer, didRemove node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
+}
+@available(iOS 11.0, *)
+extension PixlNFTsDiscoverySDK.SceneLocationView {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func session(_ session: ARKit.ARSession, didFailWithError error: Swift.Error)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func session(_ session: ARKit.ARSession, cameraDidChangeTrackingState camera: ARKit.ARCamera)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func sessionWasInterrupted(_ session: ARKit.ARSession)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func sessionInterruptionEnded(_ session: ARKit.ARSession)
+  @available(iOS 11.3, *)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func sessionShouldAttemptRelocalization(_ session: ARKit.ARSession) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func session(_ session: ARKit.ARSession, didOutputAudioSampleBuffer audioSampleBuffer: CoreMedia.CMSampleBuffer)
+}
+@available(iOS 11.0, *)
+extension PixlNFTsDiscoverySDK.SceneLocationView {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func renderer(_ renderer: SceneKit.SCNSceneRenderer, didRenderScene scene: SceneKit.SCNScene, atTime time: Foundation.TimeInterval)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func renderer(_ renderer: SceneKit.SCNSceneRenderer, updateAtTime time: Foundation.TimeInterval)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func renderer(_ renderer: SceneKit.SCNSceneRenderer, didApplyAnimationsAtTime time: Foundation.TimeInterval)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func renderer(_ renderer: SceneKit.SCNSceneRenderer, didSimulatePhysicsAtTime time: Foundation.TimeInterval)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func renderer(_ renderer: SceneKit.SCNSceneRenderer, didApplyConstraintsAtTime time: Foundation.TimeInterval)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func renderer(_ renderer: SceneKit.SCNSceneRenderer, willRenderScene scene: SceneKit.SCNScene, atTime time: Foundation.TimeInterval)
+}
+extension PixlNFTsDiscoverySDK.SceneLocationEstimate {
+  public func locationTranslation(to position: SceneKit.SCNVector3) -> PixlNFTsDiscoverySDK.LocationTranslation
+  public func translatedLocation(to position: SceneKit.SCNVector3) -> CoreLocation.CLLocation
+}
+public struct AttributedType<T> {
+  public let type: T
+  public let attribute: Swift.String
+  public init(type: T, attribute: Swift.String)
+}
+extension SceneKit.SCNVector3 {
+  public func distance(to anotherVector: SceneKit.SCNVector3) -> Swift.Float
+}
+public protocol LNTouchDelegate : AnyObject {
+  func annotationNodeTouched(node: PixlNFTsDiscoverySDK.AnnotationNode)
+  func locationNodeTouched(node: PixlNFTsDiscoverySDK.LocationNode)
+  func artouchesEnded(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+}
+@available(iOS 11.0, *)
+public protocol SceneLocationViewEstimateDelegate : AnyObject {
+  func didAddSceneLocationEstimate(sceneLocationView: PixlNFTsDiscoverySDK.SceneLocationView, position: SceneKit.SCNVector3, location: CoreLocation.CLLocation)
+  func didRemoveSceneLocationEstimate(sceneLocationView: PixlNFTsDiscoverySDK.SceneLocationView, position: SceneKit.SCNVector3, location: CoreLocation.CLLocation)
+  func locationManagerDidUpdateLocation(_ locationManager: PixlNFTsDiscoverySDK.LocationManager, location: CoreLocation.CLLocation)
+  func locationManagerDidUpdateHeading(_ locationManager: PixlNFTsDiscoverySDK.LocationManager, heading: CoreLocation.CLLocationDirection, accuracy: CoreLocation.CLLocationDirection)
+}
+@available(iOS 11.0, *)
+extension PixlNFTsDiscoverySDK.SceneLocationViewEstimateDelegate {
+  public func didAddSceneLocationEstimate(sceneLocationView: PixlNFTsDiscoverySDK.SceneLocationView, position: SceneKit.SCNVector3, location: CoreLocation.CLLocation)
+  public func didRemoveSceneLocationEstimate(sceneLocationView: PixlNFTsDiscoverySDK.SceneLocationView, position: SceneKit.SCNVector3, location: CoreLocation.CLLocation)
+}
+@available(iOS 11.0, *)
+public protocol SceneLocationViewDelegate : AnyObject {
+  func didConfirmLocationOfNode(sceneLocationView: PixlNFTsDiscoverySDK.SceneLocationView, node: PixlNFTsDiscoverySDK.LocationNode)
+  func didSetupSceneNode(sceneLocationView: PixlNFTsDiscoverySDK.SceneLocationView, sceneNode: SceneKit.SCNNode)
+  func didUpdateLocationAndScaleOfLocationNode(sceneLocationView: PixlNFTsDiscoverySDK.SceneLocationView, locationNode: PixlNFTsDiscoverySDK.LocationNode)
+}
+@available(iOS 11.0, *)
+public protocol SceneTrackingDelegate : AnyObject {
+  func sessionWasInterrupted(_ session: ARKit.ARSession)
+  func sessionInterruptionEnded(_ session: ARKit.ARSession)
+  func session(_ session: ARKit.ARSession, didFailWithError error: Swift.Error)
+  func session(_ session: ARKit.ARSession, cameraDidChangeTrackingState camera: ARKit.ARCamera)
+}
+@available(iOS 11.0, *)
+extension PixlNFTsDiscoverySDK.SceneLocationViewDelegate {
+  public func didAddSceneLocationEstimate(sceneLocationView: PixlNFTsDiscoverySDK.SceneLocationView, position: SceneKit.SCNVector3, location: CoreLocation.CLLocation)
+  public func didRemoveSceneLocationEstimate(sceneLocationView: PixlNFTsDiscoverySDK.SceneLocationView, position: SceneKit.SCNVector3, location: CoreLocation.CLLocation)
+  public func didConfirmLocationOfNode(sceneLocationView: PixlNFTsDiscoverySDK.SceneLocationView, node: PixlNFTsDiscoverySDK.LocationNode)
+  public func didSetupSceneNode(sceneLocationView: PixlNFTsDiscoverySDK.SceneLocationView, sceneNode: SceneKit.SCNNode)
+  public func didUpdateLocationAndScaleOfLocationNode(sceneLocationView: PixlNFTsDiscoverySDK.SceneLocationView, locationNode: PixlNFTsDiscoverySDK.LocationNode)
+}
+extension Swift.FloatingPoint {
+  public var degreesToRadians: Self {
+    get
+  }
+  public var radiansToDegrees: Self {
+    get
+  }
+}
+extension CoreLocation.CLLocationCoordinate2D : Swift.Equatable {
+  public static func == (lhs: CoreLocation.CLLocationCoordinate2D, rhs: CoreLocation.CLLocationCoordinate2D) -> Swift.Bool
+}
+@objc @available(iOS 11.0, *)
+@_Concurrency.MainActor(unsafe) open class SceneLocationView : ARKit.ARSCNView {
+  public enum ARTrackingType {
+    case orientationTracking
+    case worldTracking
+    public static func == (a: PixlNFTsDiscoverySDK.SceneLocationView.ARTrackingType, b: PixlNFTsDiscoverySDK.SceneLocationView.ARTrackingType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor(unsafe) weak public var locationViewDelegate: PixlNFTsDiscoverySDK.SceneLocationViewDelegate?
+  @_Concurrency.MainActor(unsafe) weak public var locationEstimateDelegate: PixlNFTsDiscoverySDK.SceneLocationViewEstimateDelegate?
+  @_Concurrency.MainActor(unsafe) weak public var locationNodeTouchDelegate: PixlNFTsDiscoverySDK.LNTouchDelegate?
+  @_Concurrency.MainActor(unsafe) weak public var sceneTrackingDelegate: PixlNFTsDiscoverySDK.SceneTrackingDelegate?
+  @_Concurrency.MainActor(unsafe) weak public var arViewDelegate: ARKit.ARSCNViewDelegate?
+  @_Concurrency.MainActor(unsafe) final public let sceneLocationManager: PixlNFTsDiscoverySDK.SceneLocationManager
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var delegate: ARKit.ARSCNViewDelegate? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) public var locationEstimateMethod: PixlNFTsDiscoverySDK.LocationEstimateMethod {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var showAxesNode: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var sceneNode: SceneKit.SCNNode? {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var orientToTrueNorth: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var showFeaturePoints: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var currentScenePosition: SceneKit.SCNVector3? {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var currentEulerAngles: SceneKit.SCNVector3? {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var locationNodes: [PixlNFTsDiscoverySDK.LocationNode] {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var polylineNodes: [PixlNFTsDiscoverySDK.PolylineNode] {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var arTrackingType: PixlNFTsDiscoverySDK.SceneLocationView.ARTrackingType {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) convenience public init(trackingType: PixlNFTsDiscoverySDK.SceneLocationView.ARTrackingType = .worldTracking, frame: CoreFoundation.CGRect = .zero, options: [Swift.String : Any]? = nil)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect, options: [Swift.String : Any]? = nil)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public func locationOfLocationNode(_ locationNode: PixlNFTsDiscoverySDK.LocationNode) -> CoreLocation.CLLocation
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func touchesEnded(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @objc deinit
+}
+@available(iOS 11.0, *)
+extension PixlNFTsDiscoverySDK.SceneLocationView {
+  @_Concurrency.MainActor(unsafe) public func run()
+  @_Concurrency.MainActor(unsafe) public func pause()
+  @_Concurrency.MainActor(unsafe) public func moveSceneHeadingClockwise()
+  @_Concurrency.MainActor(unsafe) public func moveSceneHeadingAntiClockwise()
+  @_Concurrency.MainActor(unsafe) public func addLocationNodeForCurrentPosition(locationNode: PixlNFTsDiscoverySDK.LocationNode)
+  @_Concurrency.MainActor(unsafe) public func addLocationNodesForCurrentPosition(locationNodes: [PixlNFTsDiscoverySDK.LocationNode])
+  @_Concurrency.MainActor(unsafe) public func addLocationNodeWithConfirmedLocation(locationNode: PixlNFTsDiscoverySDK.LocationNode)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func sceneLocationViewTouched(sender: UIKit.UITapGestureRecognizer)
+  @_Concurrency.MainActor(unsafe) public func addLocationNodesWithConfirmedLocation(locationNodes: [PixlNFTsDiscoverySDK.LocationNode])
+  @_Concurrency.MainActor(unsafe) public func removeAllNodes()
+  @_Concurrency.MainActor(unsafe) public func sceneContainsNodeWithTag(_ tag: Swift.String) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) public func findNodes(tagged tag: Swift.String) -> [PixlNFTsDiscoverySDK.LocationNode]
+  @_Concurrency.MainActor(unsafe) public func removeLocationNode(locationNode: PixlNFTsDiscoverySDK.LocationNode)
+  @_Concurrency.MainActor(unsafe) public func removeLocationNodes(locationNodes: [PixlNFTsDiscoverySDK.LocationNode])
+}
+@available(iOS 11.0, *)
+extension PixlNFTsDiscoverySDK.SceneLocationView {
+  @_Concurrency.MainActor(unsafe) public func addRoutes(routes: [MapKit.MKRoute], boxBuilder: PixlNFTsDiscoverySDK.BoxBuilder? = nil)
+  @_Concurrency.MainActor(unsafe) public func addRoutes(polylines: [PixlNFTsDiscoverySDK.AttributedType<MapKit.MKPolyline>], Δaltitude: CoreLocation.CLLocationDistance = -2.0, boxBuilder: PixlNFTsDiscoverySDK.BoxBuilder? = nil)
+  @_Concurrency.MainActor(unsafe) public func removeRoutes(routes: [MapKit.MKRoute])
+}
+@available(iOS 11.0, *)
+extension PixlNFTsDiscoverySDK.SceneLocationView {
+  @_Concurrency.MainActor(unsafe) public func addPolylines(polylines: [MapKit.MKPolyline], boxBuilder: PixlNFTsDiscoverySDK.BoxBuilder? = nil)
+  @_Concurrency.MainActor(unsafe) public func removePolylines(polylines: [MapKit.MKPolyline])
+}
+public enum ScalingScheme {
+  case normal
+  case tiered(threshold: Swift.Double, scale: Swift.Float)
+  case doubleTiered(firstThreshold: Swift.Double, firstScale: Swift.Float, secondThreshold: Swift.Double, secondScale: Swift.Float)
+  case linear(threshold: Swift.Double)
+  case linearBuffer(threshold: Swift.Double, buffer: Swift.Double)
+  public func getScheme() -> ((_ distance: Swift.Double, _ adjustedDistance: Swift.Double) -> Swift.Float)
+}
+extension UIKit.UIViewController : UIKit.UIAdaptivePresentationControllerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func presentationControllerDidDismiss(_ presentationController: UIKit.UIPresentationController)
+}
+extension ARKit.ARFrame.WorldMappingStatus : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension ARKit.ARCamera.TrackingState : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+public enum LocationEstimateMethod {
+  case coreLocationDataOnly
+  case mostRelevantEstimate
+  public static func == (a: PixlNFTsDiscoverySDK.LocationEstimateMethod, b: PixlNFTsDiscoverySDK.LocationEstimateMethod) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers final public class SceneLocationManager {
+  final public var locationEstimateMethod: PixlNFTsDiscoverySDK.LocationEstimateMethod
+  final public let locationManager: PixlNFTsDiscoverySDK.LocationManager
+  final public var bestLocationEstimate: PixlNFTsDiscoverySDK.SceneLocationEstimate? {
+    get
+  }
+  final public var currentLocation: CoreLocation.CLLocation? {
+    get
+  }
+  @objc deinit
+}
+extension PixlNFTsDiscoverySDK.SceneLocationManager {
+  final public func run()
+  final public func pause()
+}
+public protocol PixlNFTsDiscoverViewControllerDelegate : AnyObject {
+  func didTapNFTinAR(viewController: PixlNFTsDiscoverySDK.PixlNFTsDiscoverViewController, NFT: PixlNFTsDiscoverySDK.NFTMetaverseItem)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class PixlNFTsDiscoverViewController : UIKit.UIViewController, UIKit.UIGestureRecognizerDelegate {
+  @_Concurrency.MainActor(unsafe) public var delegate: PixlNFTsDiscoverySDK.PixlNFTsDiscoverViewControllerDelegate?
+  @_Concurrency.MainActor(unsafe) public var licenseKey: Swift.String?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func didReceiveMemoryWarning()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
+    @objc get
+  }
+  @objc @_Concurrency.MainActor(unsafe) public func dismissAction()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func touchesEnded(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @objc(gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:) @_Concurrency.MainActor(unsafe) public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension PixlNFTsDiscoverySDK.PixlNFTsDiscoverViewController : ARKit.ARSCNViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func renderer(_ renderer: SceneKit.SCNSceneRenderer, didUpdate node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func renderer(_ renderer: SceneKit.SCNSceneRenderer, nodeFor anchor: ARKit.ARAnchor) -> SceneKit.SCNNode?
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func renderer(_ renderer: SceneKit.SCNSceneRenderer, didAdd node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func renderer(_ renderer: SceneKit.SCNSceneRenderer, didRemove node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
+}
+extension PixlNFTsDiscoverySDK.PixlNFTsDiscoverViewController : PixlNFTsDiscoverySDK.LNTouchDelegate {
+  @_Concurrency.MainActor(unsafe) public func annotationNodeTouched(node: PixlNFTsDiscoverySDK.AnnotationNode)
+  @_Concurrency.MainActor(unsafe) public func locationNodeTouched(node: PixlNFTsDiscoverySDK.LocationNode)
+  @_Concurrency.MainActor(unsafe) public func artouchesEnded(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+}
+extension PixlNFTsDiscoverySDK.PixlNFTsDiscoverViewController : PixlNFTsDiscoverySDK.SceneLocationViewEstimateDelegate {
+  @_Concurrency.MainActor(unsafe) public func locationManagerDidUpdateLocation(_ locationManager: PixlNFTsDiscoverySDK.LocationManager, location: CoreLocation.CLLocation)
+  @_Concurrency.MainActor(unsafe) public func locationManagerDidUpdateHeading(_ locationManager: PixlNFTsDiscoverySDK.LocationManager, heading: CoreLocation.CLLocationDirection, accuracy: CoreLocation.CLLocationDirection)
+  @_Concurrency.MainActor(unsafe) public func didAddSceneLocationEstimate(sceneLocationView: PixlNFTsDiscoverySDK.SceneLocationView, position: SceneKit.SCNVector3, location: CoreLocation.CLLocation)
+  @_Concurrency.MainActor(unsafe) public func didRemoveSceneLocationEstimate(sceneLocationView: PixlNFTsDiscoverySDK.SceneLocationView, position: SceneKit.SCNVector3, location: CoreLocation.CLLocation)
+}
+extension PixlNFTsDiscoverySDK.PixlNFTsDiscoverViewController : UIKit.UICollectionViewDataSource {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfSections(in collectionView: UIKit.UICollectionView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
+}
+extension PixlNFTsDiscoverySDK.PixlNFTsDiscoverViewController : UIKit.UICollectionViewDelegateFlowLayout {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, sizeForItemAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGSize
+}
+@_hasMissingDesignatedInitializers public class SceneLocationEstimate {
+  final public let location: CoreLocation.CLLocation
+  final public let position: SceneKit.SCNVector3
+  @objc deinit
+}
+extension UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public var width: CoreFoundation.CGFloat {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var height: CoreFoundation.CGFloat {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var top: CoreFoundation.CGFloat {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var bottom: CoreFoundation.CGFloat {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var left: CoreFoundation.CGFloat {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var right: CoreFoundation.CGFloat {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public class var largeCornerRadius: CoreFoundation.CGFloat {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public class var mediumCornerRadius: CoreFoundation.CGFloat {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public class var smallCornerRadius: CoreFoundation.CGFloat {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class NFTMetaverseItem : Swift.Codable, Swift.Hashable {
+  public static func == (lhs: PixlNFTsDiscoverySDK.NFTMetaverseItem, rhs: PixlNFTsDiscoverySDK.NFTMetaverseItem) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public func syncDistance()
+  public func syncHeading(myLocation: CoreLocation.CLLocation, NFTlocation: CoreLocation.CLLocation?)
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+  required public init(from decoder: Swift.Decoder) throws
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class LocationManager : ObjectiveC.NSObject {
+  public var heading: CoreLocation.CLLocationDirection? {
+    get
+  }
+  public var headingAccuracy: CoreLocation.CLLocationDirection? {
+    get
+  }
+  @objc deinit
+}
+extension PixlNFTsDiscoverySDK.LocationManager : CoreLocation.CLLocationManagerDelegate {
+  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didChangeAuthorization status: CoreLocation.CLAuthorizationStatus)
+  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [CoreLocation.CLLocation])
+  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateHeading newHeading: CoreLocation.CLHeading)
+  @objc dynamic public func locationManagerShouldDisplayHeadingCalibration(_ manager: CoreLocation.CLLocationManager) -> Swift.Bool
+}
+@available(iOS 11.0, *)
+extension PixlNFTsDiscoverySDK.SceneLocationView.ARTrackingType : Swift.Equatable {}
+@available(iOS 11.0, *)
+extension PixlNFTsDiscoverySDK.SceneLocationView.ARTrackingType : Swift.Hashable {}
+extension PixlNFTsDiscoverySDK.LocationEstimateMethod : Swift.Equatable {}
+extension PixlNFTsDiscoverySDK.LocationEstimateMethod : Swift.Hashable {}

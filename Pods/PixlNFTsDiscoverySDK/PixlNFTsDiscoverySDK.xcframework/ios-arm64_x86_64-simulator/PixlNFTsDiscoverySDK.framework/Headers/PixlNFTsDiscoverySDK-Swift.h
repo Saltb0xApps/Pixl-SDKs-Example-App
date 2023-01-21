@@ -272,6 +272,30 @@ SWIFT_CLASS("_TtC20PixlNFTsDiscoverySDK14AnnotationNode")
 
 
 
+SWIFT_CLASS("_TtC20PixlNFTsDiscoverySDK17CQImageDownloader")
+@interface CQImageDownloader : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSURLSession;
+@class NSURLAuthenticationChallenge;
+@class NSURLCredential;
+
+@interface CQImageDownloader (SWIFT_EXTENSION(PixlNFTsDiscoverySDK)) <NSURLSessionDelegate>
+- (void)URLSession:(NSURLSession * _Nonnull)session didReceiveChallenge:(NSURLAuthenticationChallenge * _Nonnull)challenge completionHandler:(void (^ _Nonnull)(NSURLSessionAuthChallengeDisposition, NSURLCredential * _Nullable))completionHandler;
+@end
+
+@class NSURLSessionTask;
+@class NSURLSessionDownloadTask;
+@class NSURL;
+
+@interface CQImageDownloader (SWIFT_EXTENSION(PixlNFTsDiscoverySDK)) <NSURLSessionDownloadDelegate>
+- (void)URLSession:(NSURLSession * _Nonnull)session task:(NSURLSessionTask * _Nonnull)task didCompleteWithError:(NSError * _Nullable)error;
+- (void)URLSession:(NSURLSession * _Nonnull)session downloadTask:(NSURLSessionDownloadTask * _Nonnull)downloadTask didFinishDownloadingToURL:(NSURL * _Nonnull)location;
+- (void)URLSession:(NSURLSession * _Nonnull)session downloadTask:(NSURLSessionDownloadTask * _Nonnull)downloadTask didWriteData:(int64_t)bytesWritten totalBytesWritten:(int64_t)totalBytesWritten totalBytesExpectedToWrite:(int64_t)totalBytesExpectedToWrite;
+@end
+
+
 /// A location node can be added to a scene using a coordinate.
 /// Its scale and position should not be adjusted, as these are used for scene
 /// layout purposes.  To adjust the scale and position of items within a node,
@@ -721,6 +745,30 @@ SWIFT_CLASS("_TtC20PixlNFTsDiscoverySDK14AnnotationNode")
 @end
 
 
+
+
+SWIFT_CLASS("_TtC20PixlNFTsDiscoverySDK17CQImageDownloader")
+@interface CQImageDownloader : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSURLSession;
+@class NSURLAuthenticationChallenge;
+@class NSURLCredential;
+
+@interface CQImageDownloader (SWIFT_EXTENSION(PixlNFTsDiscoverySDK)) <NSURLSessionDelegate>
+- (void)URLSession:(NSURLSession * _Nonnull)session didReceiveChallenge:(NSURLAuthenticationChallenge * _Nonnull)challenge completionHandler:(void (^ _Nonnull)(NSURLSessionAuthChallengeDisposition, NSURLCredential * _Nullable))completionHandler;
+@end
+
+@class NSURLSessionTask;
+@class NSURLSessionDownloadTask;
+@class NSURL;
+
+@interface CQImageDownloader (SWIFT_EXTENSION(PixlNFTsDiscoverySDK)) <NSURLSessionDownloadDelegate>
+- (void)URLSession:(NSURLSession * _Nonnull)session task:(NSURLSessionTask * _Nonnull)task didCompleteWithError:(NSError * _Nullable)error;
+- (void)URLSession:(NSURLSession * _Nonnull)session downloadTask:(NSURLSessionDownloadTask * _Nonnull)downloadTask didFinishDownloadingToURL:(NSURL * _Nonnull)location;
+- (void)URLSession:(NSURLSession * _Nonnull)session downloadTask:(NSURLSessionDownloadTask * _Nonnull)downloadTask didWriteData:(int64_t)bytesWritten totalBytesWritten:(int64_t)totalBytesWritten totalBytesExpectedToWrite:(int64_t)totalBytesExpectedToWrite;
+@end
 
 
 /// A location node can be added to a scene using a coordinate.

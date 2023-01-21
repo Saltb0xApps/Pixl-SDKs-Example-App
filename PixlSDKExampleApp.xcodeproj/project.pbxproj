@@ -388,6 +388,7 @@
 				INFOPLIST_KEY_NSCameraUsageDescription = "Place and discover NFTs in AR!";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Place and discover NFTs in AR!";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Place and discover NFTs in AR!";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Place and discover NFTs in AR!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -424,6 +425,7 @@
 				INFOPLIST_KEY_NSCameraUsageDescription = "Place and discover NFTs in AR!";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Place and discover NFTs in AR!";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Place and discover NFTs in AR!";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Place and discover NFTs in AR!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

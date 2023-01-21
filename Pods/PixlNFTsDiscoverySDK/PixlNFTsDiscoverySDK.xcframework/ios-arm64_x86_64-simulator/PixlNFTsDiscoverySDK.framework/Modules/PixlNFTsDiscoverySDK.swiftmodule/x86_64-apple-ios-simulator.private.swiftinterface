@@ -371,6 +371,24 @@ extension PixlNFTsDiscoverySDK.PixlNFTsDiscoverViewController : UIKit.UICollecti
   final public let position: SceneKit.SCNVector3
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers public class CQImageDownloader : ObjectiveC.NSObject {
+  public func downloadImageWithProgress(_ url: Swift.String, progress: ((Swift.Float) -> Swift.Void)?, completion: ((UIKit.UIImage?, Swift.Bool) -> Swift.Void)?)
+  public func deleteCacheImage(_ url: Swift.String)
+  public static func clearAllTheCachedImages()
+  public func cancelDownload()
+  public func pauseDownload()
+  public func resumeDownload()
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension PixlNFTsDiscoverySDK.CQImageDownloader : Foundation.URLSessionDelegate {
+  @objc dynamic public func urlSession(_ session: Foundation.URLSession, didReceive challenge: Foundation.URLAuthenticationChallenge, completionHandler: @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void)
+}
+extension PixlNFTsDiscoverySDK.CQImageDownloader : Foundation.URLSessionDownloadDelegate {
+  @objc dynamic public func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, didCompleteWithError error: Swift.Error?)
+  @objc dynamic public func urlSession(_ session: Foundation.URLSession, downloadTask: Foundation.URLSessionDownloadTask, didFinishDownloadingTo location: Foundation.URL)
+  @objc dynamic public func urlSession(_ session: Foundation.URLSession, downloadTask: Foundation.URLSessionDownloadTask, didWriteData bytesWritten: Swift.Int64, totalBytesWritten: Swift.Int64, totalBytesExpectedToWrite: Swift.Int64)
+}
 extension UIKit.UIView {
   @_Concurrency.MainActor(unsafe) public var width: CoreFoundation.CGFloat {
     get

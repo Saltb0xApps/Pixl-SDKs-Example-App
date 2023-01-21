@@ -1,6 +1,6 @@
 PODS:
-  - PixlNFTsDiscoverySDK (1.0.2)
-  - PixlNFTsPlacementSDK (1.0.9)
+  - PixlNFTsDiscoverySDK (1.0.3)
+  - PixlNFTsPlacementSDK (1.1.0)
   - PixlNFTsSDK (1.0.0)
 
 DEPENDENCIES:
@@ -18,18 +18,18 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   PixlNFTsDiscoverySDK:
-    :commit: 0fbe5f97114896908635578422144eb8294d8387
+    :commit: c5ceaf0aeb20cf21fbd36779ebe2bd7b5cacb407
     :git: https://github.com/Saltb0xApps/Pixl-Discovery-NFTs-SDK
   PixlNFTsPlacementSDK:
-    :commit: c95a4ecb1c8eefd7f31a22d2a6649cf8be2cac23
+    :commit: 61461c6d5151a36c226b10f292627c60cbf08ea7
     :git: https://github.com/Saltb0xApps/Pixl-Placement-NFTs-SDK
   PixlNFTsSDK:
     :commit: ec5e227a6d199664cfd24ccfea8c48ed88df3d78
     :git: https://github.com/Saltb0xApps/Pixl-NFTs-SDK.git
 
 SPEC CHECKSUMS:
-  PixlNFTsDiscoverySDK: 882eef00cdbc00dfd9708c319a1745610e82e927
-  PixlNFTsPlacementSDK: ffaf07d2e66ecc85556af0ea6a181a11277be300
+  PixlNFTsDiscoverySDK: da2c7035e5e3243f6ac962b1d4541c4effbfec7d
+  PixlNFTsPlacementSDK: acfd9d3d2314dacc704f88183e4a8af73e458ae4
   PixlNFTsSDK: 0e7b4175b55280feb60e3d08079272e1bf164e56
 
 PODFILE CHECKSUM: d45c52daca2178ffa0fe0aada4e06f048073a48f

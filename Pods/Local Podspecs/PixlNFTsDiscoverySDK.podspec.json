@@ -1,6 +1,6 @@
 {
   "name": "PixlNFTsDiscoverySDK",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "summary": "discover nfts from the polygon blockchain anywhere in AR with persistence",
   "homepage": "https://www.pixlapp.xyz",
   "authors": {

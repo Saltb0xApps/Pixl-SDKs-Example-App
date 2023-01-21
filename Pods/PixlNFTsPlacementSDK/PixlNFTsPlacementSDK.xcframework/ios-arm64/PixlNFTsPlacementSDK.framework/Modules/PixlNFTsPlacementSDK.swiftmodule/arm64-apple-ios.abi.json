@@ -670,8 +670,7 @@
         "genericSig": "<τ_0_0 : AnyObject>",
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ]
       },
       {
@@ -1906,21 +1905,21 @@
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPlacementSDK\/PixlNFTsPlacementSDK\/Controllers\/PixlNFTsPlacementViewController.swift",
       "kind": "StringLiteral",
-      "offset": 897,
+      "offset": 743,
       "length": 54,
       "value": "\"https:\/\/pixl-placements-sdk.herokuapp.com\/placements\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPlacementSDK\/PixlNFTsPlacementSDK\/Controllers\/PixlNFTsPlacementViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1296,
+      "offset": 1142,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPlacementSDK\/PixlNFTsPlacementSDK\/Controllers\/PixlNFTsPlacementViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1330,
+      "offset": 1176,
       "length": 2,
       "value": "\"\""
     }

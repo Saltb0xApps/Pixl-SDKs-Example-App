@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PixlNFTsDiscoverySDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import ARKit
@@ -401,6 +401,25 @@ extension UIKit.UIView {
   }
 }
 @_hasMissingDesignatedInitializers public class NFTMetaverseItem : Swift.Codable, Swift.Hashable {
+  public var contractAddress: Swift.String?
+  public var imageURL: Swift.String?
+  public var animationURL: Swift.String?
+  public var latlong: Swift.String?
+  public var location: Swift.String?
+  public var name: Swift.String?
+  public var permalink: Swift.String?
+  public var timestamp: Swift.String?
+  public var tokenID: Swift.String?
+  public var walletAddress: Swift.String?
+  public var distanceInMiles: Swift.Double?
+  public var snapshotURL: Swift.String?
+  public var headingAngle: Swift.Double?
+  public var anchorUUID: Swift.String?
+  public var showsFloating: Swift.String?
+  public var showsOnMap: Swift.String?
+  public var claimable: Swift.String?
+  public var multiclaim: Swift.String?
+  public var claims: [Swift.String]?
   public static func == (lhs: PixlNFTsDiscoverySDK.NFTMetaverseItem, rhs: PixlNFTsDiscoverySDK.NFTMetaverseItem) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public func syncDistance()

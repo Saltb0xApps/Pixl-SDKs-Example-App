@@ -1,0 +1,4 @@
+framework module PixlNFTsPortalsSDK {
+  header "PixlNFTsPortalsSDK-Swift.h"
+  requires objc
+}

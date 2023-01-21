@@ -16,28 +16,38 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XNu-fe-3Wq">
-                                <rect key="frame" x="142" y="328.66666666666669" width="109" height="35"/>
+                                <rect key="frame" x="134" y="248.66666666666663" width="125" height="35"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Place NFTs"/>
+                                <buttonConfiguration key="configuration" style="plain" title="1. Place NFTs"/>
                                 <connections>
                                     <action selector="showARNFTsPlacement:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2mc-k6-F5f"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fls-Q2-SiP">
-                                <rect key="frame" x="129.66666666666666" y="488.66666666666669" width="133.99999999999997" height="35.000000000000057"/>
+                                <rect key="frame" x="120" y="328.66666666666669" width="153" height="35"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Discover NFTs"/>
+                                <buttonConfiguration key="configuration" style="plain" title="2. Discover NFTs"/>
                                 <connections>
                                     <action selector="showARNFTsDiscovery:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j4R-S1-LUe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dz5-RG-CHK">
+                                <rect key="frame" x="144" y="488.66666666666669" width="105" height="35.000000000000057"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="NFT Portal"/>
+                                <connections>
+                                    <action selector="showNFTPortals:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OAB-nt-a44"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="fls-Q2-SiP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="80" id="AgN-97-dpJ"/>
+                            <constraint firstItem="Dz5-RG-CHK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="80" id="2ph-vv-N0K"/>
+                            <constraint firstItem="fls-Q2-SiP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-80" id="AgN-97-dpJ"/>
                             <constraint firstItem="fls-Q2-SiP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="D75-XB-tIP"/>
-                            <constraint firstItem="XNu-fe-3Wq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-80" id="pyc-4t-cUj"/>
+                            <constraint firstItem="Dz5-RG-CHK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Sw1-pF-LzJ"/>
+                            <constraint firstItem="XNu-fe-3Wq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-160" id="pyc-4t-cUj"/>
                             <constraint firstItem="XNu-fe-3Wq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="smD-My-VHs"/>
                         </constraints>
                     </view>

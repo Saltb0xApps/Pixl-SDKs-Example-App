@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
+		272975F2F206E5DC158E430F099DE7F1 /* PixlNFTsPortalsSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 52B5371ECDB700A639DAC5CC651F4631 /* Build configuration list for PBXAggregateTarget "PixlNFTsPortalsSDK" */;
+			buildPhases = (
+				25D2F633F538D5FA9C9DE2509B01144E /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = PixlNFTsPortalsSDK;
+		};
 		2A7B9111C68B1049F811116DE61115F3 /* PixlNFTsDiscoverySDK */ = {
 			isa = PBXAggregateTarget;
 			buildConfigurationList = 575CD274084A41C086EE3C9430C0B3C0 /* Build configuration list for PBXAggregateTarget "PixlNFTsDiscoverySDK" */;
@@ -40,103 +50,104 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		5D0108C96C337BB5084DD859D52A902D /* Pods-PixlSDKExampleApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F2EB0E4FB27AA4121C415284FFB9E91 /* Pods-PixlSDKExampleApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6814535159ADADD1C4E73A0C5111BF81 /* Pods-PixlSDKExampleApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC151F3B4614CE304418F9328904A55 /* Pods-PixlSDKExampleApp-dummy.m */; };
-		85EF3F012734249AF0F44EDBA38D11A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1C2265C71883FA6A010C8DA8C30AA8FB /* Pods-PixlSDKExampleApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F2EB0E4FB27AA4121C415284FFB9E91 /* Pods-PixlSDKExampleApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4683B4A0D259DB90D8DAA254BAB80F84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D3B536492E2D82F4273319EC56E39AFE /* Pods-PixlSDKExampleApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC151F3B4614CE304418F9328904A55 /* Pods-PixlSDKExampleApp-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		73A43C5FCF3A7825D0264B54994507C6 /* PBXContainerItemProxy */ = {
+		1B76B064B4F2C123C02219EEDD01F10F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2A7B9111C68B1049F811116DE61115F3;
 			remoteInfo = PixlNFTsDiscoverySDK;
 		};
-		82428CF2D813A990371C95222BDAA183 /* PBXContainerItemProxy */ = {
+		4B7D7156E7A7B7B43E4EBD3AB687BFCC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A7667A205A95B539DAEBD9127766B705;
 			remoteInfo = PixlNFTsPlacementSDK;
 		};
-		D1B214A248D5A63645179B33A09FD503 /* PBXContainerItemProxy */ = {
+		95A28C7E28B911AB834F37D5CB440FD6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4A9238CC3A5D48EF84977BBFCA4373C7;
 			remoteInfo = PixlNFTsSDK;
 		};
+		B8FBE3D9C5CBCE4F6F3195FDA8211690 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 272975F2F206E5DC158E430F099DE7F1;
+			remoteInfo = PixlNFTsPortalsSDK;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01B4CAD30C34E84D3B05A15B1F5D70FC /* PixlNFTsDiscoverySDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "PixlNFTsDiscoverySDK-xcframeworks.sh"; sourceTree = "<group>"; };
-		098D803255D7CC30FF6BEA61FE7E223E /* PixlNFTsSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "PixlNFTsSDK-xcframeworks.sh"; sourceTree = "<group>"; };
 		0A999FE643AA86C7A4D3C7A18E74A128 /* Pods-PixlSDKExampleApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PixlSDKExampleApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		0FCB2C990B3D9183916EDBF9F14AB619 /* PixlNFTsDiscoverySDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PixlNFTsDiscoverySDK.debug.xcconfig; sourceTree = "<group>"; };
-		1833BC9CCD785429FB55F3BF7D5AAAEC /* PixlNFTsSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = PixlNFTsSDK.xcframework; sourceTree = "<group>"; };
+		2AD415EEE978B1D2573BD0A8C02FF40E /* PixlNFTsPortalsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PixlNFTsPortalsSDK.release.xcconfig; sourceTree = "<group>"; };
+		2EAEF9778FC4C9933191819698B93968 /* PixlNFTsPlacementSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PixlNFTsPlacementSDK.debug.xcconfig; sourceTree = "<group>"; };
+		3B16D34849A3F980CA49AA00492A595E /* PixlNFTsPortalsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PixlNFTsPortalsSDK.debug.xcconfig; sourceTree = "<group>"; };
 		4680551BAB32E3716976592B2CFF3CE0 /* Pods-PixlSDKExampleApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PixlSDKExampleApp"; path = Pods_PixlSDKExampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		48A0D36F86586523C19EC189BB273A03 /* PixlNFTsPlacementSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PixlNFTsPlacementSDK.debug.xcconfig; sourceTree = "<group>"; };
 		4FC151F3B4614CE304418F9328904A55 /* Pods-PixlSDKExampleApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PixlSDKExampleApp-dummy.m"; sourceTree = "<group>"; };
 		6523852704ED8DFDF29460BE49C0DFAE /* Pods-PixlSDKExampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PixlSDKExampleApp.release.xcconfig"; sourceTree = "<group>"; };
-		6567101665555B8E75DF52267F14B63A /* PixlNFTsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PixlNFTsSDK.debug.xcconfig; sourceTree = "<group>"; };
+		6E5557974EC067734F3224C0BB01D19A /* PixlNFTsDiscoverySDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = PixlNFTsDiscoverySDK.xcframework; sourceTree = "<group>"; };
+		6EFCE632A388ECEF9EBB7002EC39E176 /* PixlNFTsSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = PixlNFTsSDK.xcframework; sourceTree = "<group>"; };
+		72EA8AD8AF83B69AA877980047F3FB74 /* PixlNFTsPlacementSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "PixlNFTsPlacementSDK-xcframeworks.sh"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		738F519FE9BBDA4F984792C4D3E0E864 /* Pods-PixlSDKExampleApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PixlSDKExampleApp-Info.plist"; sourceTree = "<group>"; };
-		825A463C7DD3C3E813DB512741948991 /* PixlNFTsPlacementSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "PixlNFTsPlacementSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		76C5A7D6ECB59C3A5B65A7B9C6F51051 /* PixlNFTsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PixlNFTsSDK.release.xcconfig; sourceTree = "<group>"; };
+		87049D91E0E85ECE7CA377350B69F6FE /* PixlNFTsPlacementSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = PixlNFTsPlacementSDK.xcframework; sourceTree = "<group>"; };
+		8D46A58313E38B87FCAE408CB715392A /* PixlNFTsDiscoverySDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "PixlNFTsDiscoverySDK-xcframeworks.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F2EB0E4FB27AA4121C415284FFB9E91 /* Pods-PixlSDKExampleApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PixlSDKExampleApp-umbrella.h"; sourceTree = "<group>"; };
+		A3D25CF65621E94C08BFDA7ECD49ADB9 /* PixlNFTsPlacementSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PixlNFTsPlacementSDK.release.xcconfig; sourceTree = "<group>"; };
 		A953376656C201E5717A2D4BF2738BCD /* Pods-PixlSDKExampleApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PixlSDKExampleApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AD49438AD3A544CA5DDE99E58897011E /* PixlNFTsDiscoverySDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = PixlNFTsDiscoverySDK.xcframework; sourceTree = "<group>"; };
-		AFC1AF615526720946557329A51E96A8 /* PixlNFTsDiscoverySDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PixlNFTsDiscoverySDK.release.xcconfig; sourceTree = "<group>"; };
-		D02E4AD4D9D5B69C155733502B66B69C /* PixlNFTsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PixlNFTsSDK.release.xcconfig; sourceTree = "<group>"; };
+		B80F2CFBACD157610000DC31CAFAA8FF /* PixlNFTsPortalsSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = PixlNFTsPortalsSDK.xcframework; sourceTree = "<group>"; };
 		D05D5B550F95BE6A98A207F271325BA3 /* Pods-PixlSDKExampleApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PixlSDKExampleApp-frameworks.sh"; sourceTree = "<group>"; };
 		D0CDA7AC08672B3040D011330F692C95 /* Pods-PixlSDKExampleApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PixlSDKExampleApp.modulemap"; sourceTree = "<group>"; };
-		D47F06493A5FCFB6C004C4255D13DE25 /* PixlNFTsPlacementSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PixlNFTsPlacementSDK.release.xcconfig; sourceTree = "<group>"; };
 		D60A94F49723A9204FDB8F61656E77CC /* Pods-PixlSDKExampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PixlSDKExampleApp.debug.xcconfig"; sourceTree = "<group>"; };
-		FD9C3EB608841A20ED73D5BE0C7787A7 /* PixlNFTsPlacementSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = PixlNFTsPlacementSDK.xcframework; sourceTree = "<group>"; };
+		DBC2B79AEC425007590F77F5222B4249 /* PixlNFTsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PixlNFTsSDK.debug.xcconfig; sourceTree = "<group>"; };
+		E5FD53ABE944E57173BC0FF0A47703E1 /* PixlNFTsDiscoverySDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PixlNFTsDiscoverySDK.debug.xcconfig; sourceTree = "<group>"; };
+		EC1EE5A6E5E64995C5C51E88B30A5BB7 /* PixlNFTsPortalsSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "PixlNFTsPortalsSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		F180448F49A76D14553F1DD676505EA0 /* PixlNFTsDiscoverySDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PixlNFTsDiscoverySDK.release.xcconfig; sourceTree = "<group>"; };
+		F346AB21C916A519ED87139A4E648A81 /* PixlNFTsSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "PixlNFTsSDK-xcframeworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0AC43535F3C6FB1B2D17F4F8F084A4AB /* Frameworks */ = {
+		784A42067C40CEBE8642D333534BAFE3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85EF3F012734249AF0F44EDBA38D11A8 /* Foundation.framework in Frameworks */,
+				4683B4A0D259DB90D8DAA254BAB80F84 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02F79D7AA58B9232F49540B18B6415EB /* Pods */ = {
+		00B7EE612B71F01392CDC1E29C312F18 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0D55FC93B4ACBB7BC1E47AE268DC1B7E /* PixlNFTsDiscoverySDK */,
-				6D4104F86071671CEFB28BD5894E3503 /* PixlNFTsPlacementSDK */,
-				3DF9357C5C793742F2C73F952089734A /* PixlNFTsSDK */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		0AAB4C9B116904E13D3385713C6666B7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				098D803255D7CC30FF6BEA61FE7E223E /* PixlNFTsSDK-xcframeworks.sh */,
-				6567101665555B8E75DF52267F14B63A /* PixlNFTsSDK.debug.xcconfig */,
-				D02E4AD4D9D5B69C155733502B66B69C /* PixlNFTsSDK.release.xcconfig */,
+				F346AB21C916A519ED87139A4E648A81 /* PixlNFTsSDK-xcframeworks.sh */,
+				DBC2B79AEC425007590F77F5222B4249 /* PixlNFTsSDK.debug.xcconfig */,
+				76C5A7D6ECB59C3A5B65A7B9C6F51051 /* PixlNFTsSDK.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/PixlNFTsSDK";
 			sourceTree = "<group>";
 		};
-		0D55FC93B4ACBB7BC1E47AE268DC1B7E /* PixlNFTsDiscoverySDK */ = {
+		0F74118899604E302A4B430978E113CE /* PixlNFTsSDK */ = {
 			isa = PBXGroup;
 			children = (
-				FB867402433E029A89BC4473AC721E3B /* Frameworks */,
-				E6E17B08FFE1F7206A637547B9C47953 /* Support Files */,
+				CF3FCFD263D1C8130F9BC528DECCDD41 /* Frameworks */,
+				00B7EE612B71F01392CDC1E29C312F18 /* Support Files */,
 			);
-			name = PixlNFTsDiscoverySDK;
-			path = PixlNFTsDiscoverySDK;
+			name = PixlNFTsSDK;
+			path = PixlNFTsSDK;
 			sourceTree = "<group>";
 		};
 		18290B5D863CDE83DAD095ECA225068B /* Targets Support Files */ = {
@@ -147,22 +158,23 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3DF9357C5C793742F2C73F952089734A /* PixlNFTsSDK */ = {
+		368F366E7AF6447C9BA2C9501D80D4AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				565A8D3E6428ED130771F70AB5C45390 /* Frameworks */,
-				0AAB4C9B116904E13D3385713C6666B7 /* Support Files */,
-			);
-			name = PixlNFTsSDK;
-			path = PixlNFTsSDK;
-			sourceTree = "<group>";
-		};
-		565A8D3E6428ED130771F70AB5C45390 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1833BC9CCD785429FB55F3BF7D5AAAEC /* PixlNFTsSDK.xcframework */,
+				B80F2CFBACD157610000DC31CAFAA8FF /* PixlNFTsPortalsSDK.xcframework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4193714D5EAB7F6293E07B97F9368899 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				72EA8AD8AF83B69AA877980047F3FB74 /* PixlNFTsPlacementSDK-xcframeworks.sh */,
+				2EAEF9778FC4C9933191819698B93968 /* PixlNFTsPlacementSDK.debug.xcconfig */,
+				A3D25CF65621E94C08BFDA7ECD49ADB9 /* PixlNFTsPlacementSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PixlNFTsPlacementSDK";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -190,31 +202,50 @@
 			path = "Target Support Files/Pods-PixlSDKExampleApp";
 			sourceTree = "<group>";
 		};
-		6D4104F86071671CEFB28BD5894E3503 /* PixlNFTsPlacementSDK */ = {
+		63CF7720F7752FFC834DAF6A874C5891 /* PixlNFTsDiscoverySDK */ = {
 			isa = PBXGroup;
 			children = (
-				B3A3F11CBCB22E6663D3E973743C1BC7 /* Frameworks */,
-				7112C5601EBBC3C939C4037E873932F3 /* Support Files */,
+				CB3059D50E45B7858FDA17D58C77CFAD /* Frameworks */,
+				9019CCCD93F48CFACFCFB82D6E8302B6 /* Support Files */,
 			);
-			name = PixlNFTsPlacementSDK;
-			path = PixlNFTsPlacementSDK;
+			name = PixlNFTsDiscoverySDK;
+			path = PixlNFTsDiscoverySDK;
 			sourceTree = "<group>";
 		};
-		7112C5601EBBC3C939C4037E873932F3 /* Support Files */ = {
+		884496A7488DB83269AE9FD656F807FB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				825A463C7DD3C3E813DB512741948991 /* PixlNFTsPlacementSDK-xcframeworks.sh */,
-				48A0D36F86586523C19EC189BB273A03 /* PixlNFTsPlacementSDK.debug.xcconfig */,
-				D47F06493A5FCFB6C004C4255D13DE25 /* PixlNFTsPlacementSDK.release.xcconfig */,
+				87049D91E0E85ECE7CA377350B69F6FE /* PixlNFTsPlacementSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9019CCCD93F48CFACFCFB82D6E8302B6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D46A58313E38B87FCAE408CB715392A /* PixlNFTsDiscoverySDK-xcframeworks.sh */,
+				E5FD53ABE944E57173BC0FF0A47703E1 /* PixlNFTsDiscoverySDK.debug.xcconfig */,
+				F180448F49A76D14553F1DD676505EA0 /* PixlNFTsDiscoverySDK.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/PixlNFTsPlacementSDK";
+			path = "../Target Support Files/PixlNFTsDiscoverySDK";
 			sourceTree = "<group>";
 		};
-		B3A3F11CBCB22E6663D3E973743C1BC7 /* Frameworks */ = {
+		A408287819DEF830195DE020DFFC6793 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FD9C3EB608841A20ED73D5BE0C7787A7 /* PixlNFTsPlacementSDK.xcframework */,
+				EC1EE5A6E5E64995C5C51E88B30A5BB7 /* PixlNFTsPortalsSDK-xcframeworks.sh */,
+				3B16D34849A3F980CA49AA00492A595E /* PixlNFTsPortalsSDK.debug.xcconfig */,
+				2AD415EEE978B1D2573BD0A8C02FF40E /* PixlNFTsPortalsSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PixlNFTsPortalsSDK";
+			sourceTree = "<group>";
+		};
+		CB3059D50E45B7858FDA17D58C77CFAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E5557974EC067734F3224C0BB01D19A /* PixlNFTsDiscoverySDK.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -224,10 +255,18 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				02F79D7AA58B9232F49540B18B6415EB /* Pods */,
+				D93CF77C265B5677D4AF579A822D0402 /* Pods */,
 				FC6DEC7715C3AFBD59C93EF43899066E /* Products */,
 				18290B5D863CDE83DAD095ECA225068B /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		CF3FCFD263D1C8130F9BC528DECCDD41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EFCE632A388ECEF9EBB7002EC39E176 /* PixlNFTsSDK.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -238,23 +277,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E6E17B08FFE1F7206A637547B9C47953 /* Support Files */ = {
+		D93CF77C265B5677D4AF579A822D0402 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				01B4CAD30C34E84D3B05A15B1F5D70FC /* PixlNFTsDiscoverySDK-xcframeworks.sh */,
-				0FCB2C990B3D9183916EDBF9F14AB619 /* PixlNFTsDiscoverySDK.debug.xcconfig */,
-				AFC1AF615526720946557329A51E96A8 /* PixlNFTsDiscoverySDK.release.xcconfig */,
+				63CF7720F7752FFC834DAF6A874C5891 /* PixlNFTsDiscoverySDK */,
+				F4D27AF6CC2353F67BA445A89363CC12 /* PixlNFTsPlacementSDK */,
+				F9AF5906118032E53084C941785163BE /* PixlNFTsPortalsSDK */,
+				0F74118899604E302A4B430978E113CE /* PixlNFTsSDK */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/PixlNFTsDiscoverySDK";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		FB867402433E029A89BC4473AC721E3B /* Frameworks */ = {
+		F4D27AF6CC2353F67BA445A89363CC12 /* PixlNFTsPlacementSDK */ = {
 			isa = PBXGroup;
 			children = (
-				AD49438AD3A544CA5DDE99E58897011E /* PixlNFTsDiscoverySDK.xcframework */,
+				884496A7488DB83269AE9FD656F807FB /* Frameworks */,
+				4193714D5EAB7F6293E07B97F9368899 /* Support Files */,
 			);
-			name = Frameworks;
+			name = PixlNFTsPlacementSDK;
+			path = PixlNFTsPlacementSDK;
+			sourceTree = "<group>";
+		};
+		F9AF5906118032E53084C941785163BE /* PixlNFTsPortalsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				368F366E7AF6447C9BA2C9501D80D4AF /* Frameworks */,
+				A408287819DEF830195DE020DFFC6793 /* Support Files */,
+			);
+			name = PixlNFTsPortalsSDK;
+			path = PixlNFTsPortalsSDK;
 			sourceTree = "<group>";
 		};
 		FC6DEC7715C3AFBD59C93EF43899066E /* Products */ = {
@@ -268,11 +319,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		792040F3BAC0E6F3E8F26F7FC27F5489 /* Headers */ = {
+		797668D6C3A5472BB18029376EE6DACE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D0108C96C337BB5084DD859D52A902D /* Pods-PixlSDKExampleApp-umbrella.h in Headers */,
+				1C2265C71883FA6A010C8DA8C30AA8FB /* Pods-PixlSDKExampleApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,19 +332,20 @@
 /* Begin PBXNativeTarget section */
 		25497F1E71C53063BEA626AA3383645E /* Pods-PixlSDKExampleApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A3CEA4C956DDAC8BC6663BDE2A63CAE /* Build configuration list for PBXNativeTarget "Pods-PixlSDKExampleApp" */;
+			buildConfigurationList = 536E37DCEAFCF55FEFCF608D4FDDF1EA /* Build configuration list for PBXNativeTarget "Pods-PixlSDKExampleApp" */;
 			buildPhases = (
-				792040F3BAC0E6F3E8F26F7FC27F5489 /* Headers */,
-				0A6EA518C1280C9409AF2A3C531B5BE0 /* Sources */,
-				0AC43535F3C6FB1B2D17F4F8F084A4AB /* Frameworks */,
-				E651922E677A71E21614281E106B0BA9 /* Resources */,
+				797668D6C3A5472BB18029376EE6DACE /* Headers */,
+				8925572DE4B0149EBA529A8B9956E575 /* Sources */,
+				784A42067C40CEBE8642D333534BAFE3 /* Frameworks */,
+				9B575CBBF61C6CA921739009DFA51F46 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3653EC59D304A6933681598B3257509D /* PBXTargetDependency */,
-				96AC03C54AB6D219DDDCA130B540A02A /* PBXTargetDependency */,
-				C718EEC261CCEEDB947D15475D1A0A94 /* PBXTargetDependency */,
+				F89EB014F1D090EC3541DD9AC4B08004 /* PBXTargetDependency */,
+				546EF002D07121520BB8681195E1A59A /* PBXTargetDependency */,
+				CDCE04FAF9928D8179EEF50A69551F49 /* PBXTargetDependency */,
+				E25FEFBCFC02B0562E434449E9A0B2E9 /* PBXTargetDependency */,
 			);
 			name = "Pods-PixlSDKExampleApp";
 			productName = Pods_PixlSDKExampleApp;
@@ -324,6 +376,7 @@
 			targets = (
 				2A7B9111C68B1049F811116DE61115F3 /* PixlNFTsDiscoverySDK */,
 				A7667A205A95B539DAEBD9127766B705 /* PixlNFTsPlacementSDK */,
+				272975F2F206E5DC158E430F099DE7F1 /* PixlNFTsPortalsSDK */,
 				4A9238CC3A5D48EF84977BBFCA4373C7 /* PixlNFTsSDK */,
 				25497F1E71C53063BEA626AA3383645E /* Pods-PixlSDKExampleApp */,
 			);
@@ -331,7 +384,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E651922E677A71E21614281E106B0BA9 /* Resources */ = {
+		9B575CBBF61C6CA921739009DFA51F46 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -356,6 +409,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/PixlNFTsSDK/PixlNFTsSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25D2F633F538D5FA9C9DE2509B01144E /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/PixlNFTsPortalsSDK/PixlNFTsPortalsSDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/PixlNFTsPortalsSDK/PixlNFTsPortalsSDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/PixlNFTsPortalsSDK/PixlNFTsPortalsSDK-xcframeworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2C93BC401E381781878F725614DDDFE1 /* [CP] Copy XCFrameworks */ = {
@@ -395,41 +465,101 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0A6EA518C1280C9409AF2A3C531B5BE0 /* Sources */ = {
+		8925572DE4B0149EBA529A8B9956E575 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6814535159ADADD1C4E73A0C5111BF81 /* Pods-PixlSDKExampleApp-dummy.m in Sources */,
+				D3B536492E2D82F4273319EC56E39AFE /* Pods-PixlSDKExampleApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3653EC59D304A6933681598B3257509D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PixlNFTsDiscoverySDK;
-			target = 2A7B9111C68B1049F811116DE61115F3 /* PixlNFTsDiscoverySDK */;
-			targetProxy = 73A43C5FCF3A7825D0264B54994507C6 /* PBXContainerItemProxy */;
-		};
-		96AC03C54AB6D219DDDCA130B540A02A /* PBXTargetDependency */ = {
+		546EF002D07121520BB8681195E1A59A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PixlNFTsPlacementSDK;
 			target = A7667A205A95B539DAEBD9127766B705 /* PixlNFTsPlacementSDK */;
-			targetProxy = 82428CF2D813A990371C95222BDAA183 /* PBXContainerItemProxy */;
+			targetProxy = 4B7D7156E7A7B7B43E4EBD3AB687BFCC /* PBXContainerItemProxy */;
 		};
-		C718EEC261CCEEDB947D15475D1A0A94 /* PBXTargetDependency */ = {
+		CDCE04FAF9928D8179EEF50A69551F49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PixlNFTsPortalsSDK;
+			target = 272975F2F206E5DC158E430F099DE7F1 /* PixlNFTsPortalsSDK */;
+			targetProxy = B8FBE3D9C5CBCE4F6F3195FDA8211690 /* PBXContainerItemProxy */;
+		};
+		E25FEFBCFC02B0562E434449E9A0B2E9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PixlNFTsSDK;
 			target = 4A9238CC3A5D48EF84977BBFCA4373C7 /* PixlNFTsSDK */;
-			targetProxy = D1B214A248D5A63645179B33A09FD503 /* PBXContainerItemProxy */;
+			targetProxy = 95A28C7E28B911AB834F37D5CB440FD6 /* PBXContainerItemProxy */;
+		};
+		F89EB014F1D090EC3541DD9AC4B08004 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PixlNFTsDiscoverySDK;
+			target = 2A7B9111C68B1049F811116DE61115F3 /* PixlNFTsDiscoverySDK */;
+			targetProxy = 1B76B064B4F2C123C02219EEDD01F10F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		082B631D9BAAC65455122A36899F3BDD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6567101665555B8E75DF52267F14B63A /* PixlNFTsSDK.debug.xcconfig */;
+			baseConfigurationReference = DBC2B79AEC425007590F77F5222B4249 /* PixlNFTsSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C9C6E7C21732C44A2067EA5766238C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D60A94F49723A9204FDB8F61656E77CC /* Pods-PixlSDKExampleApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PixlSDKExampleApp/Pods-PixlSDKExampleApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PixlSDKExampleApp/Pods-PixlSDKExampleApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		12A9FCDA43790A7342FBC930DECA0C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B16D34849A3F980CA49AA00492A595E /* PixlNFTsPortalsSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,7 +576,7 @@
 		};
 		1E1B9417DFA344F77DC575EFEC74E8EA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FCB2C990B3D9183916EDBF9F14AB619 /* PixlNFTsDiscoverySDK.debug.xcconfig */;
+			baseConfigurationReference = E5FD53ABE944E57173BC0FF0A47703E1 /* PixlNFTsDiscoverySDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -591,7 +721,7 @@
 		};
 		6C92F043BD5D5711E78B2432530CA87F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AFC1AF615526720946557329A51E96A8 /* PixlNFTsDiscoverySDK.release.xcconfig */;
+			baseConfigurationReference = F180448F49A76D14553F1DD676505EA0 /* PixlNFTsDiscoverySDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -607,7 +737,7 @@
 			};
 			name = Release;
 		};
-		8621B0666E0DCDBED0C4DD3348F1F103 /* Release */ = {
+		C1EC3BA93DF11C43A1564AE8EE3B9BA9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6523852704ED8DFDF29460BE49C0DFAE /* Pods-PixlSDKExampleApp.release.xcconfig */;
 			buildSettings = {
@@ -645,46 +775,9 @@
 			};
 			name = Release;
 		};
-		90D55CCD953CE001D703DC528B17E50B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D60A94F49723A9204FDB8F61656E77CC /* Pods-PixlSDKExampleApp.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PixlSDKExampleApp/Pods-PixlSDKExampleApp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PixlSDKExampleApp/Pods-PixlSDKExampleApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		E17A685241B99E8ECACBAFE8D450E634 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48A0D36F86586523C19EC189BB273A03 /* PixlNFTsPlacementSDK.debug.xcconfig */;
+			baseConfigurationReference = 2EAEF9778FC4C9933191819698B93968 /* PixlNFTsPlacementSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -701,7 +794,25 @@
 		};
 		EACE469C8FEF0BD28B93893A938C4F4C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D02E4AD4D9D5B69C155733502B66B69C /* PixlNFTsSDK.release.xcconfig */;
+			baseConfigurationReference = 76C5A7D6ECB59C3A5B65A7B9C6F51051 /* PixlNFTsSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1EB7A9AA849459C8D5C365DB3C5149B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AD415EEE978B1D2573BD0A8C02FF40E /* PixlNFTsPortalsSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -719,7 +830,7 @@
 		};
 		F5CB6D9DE4133A0867821857F140302F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D47F06493A5FCFB6C004C4255D13DE25 /* PixlNFTsPlacementSDK.release.xcconfig */;
+			baseConfigurationReference = A3D25CF65621E94C08BFDA7ECD49ADB9 /* PixlNFTsPlacementSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -738,20 +849,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A3CEA4C956DDAC8BC6663BDE2A63CAE /* Build configuration list for PBXNativeTarget "Pods-PixlSDKExampleApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				90D55CCD953CE001D703DC528B17E50B /* Debug */,
-				8621B0666E0DCDBED0C4DD3348F1F103 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				45285987FDC204B9DB7C0228892D4B3E /* Debug */,
 				6AF9D8D0B4F4FA4695A8EEF773CD3FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52B5371ECDB700A639DAC5CC651F4631 /* Build configuration list for PBXAggregateTarget "PixlNFTsPortalsSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A9FCDA43790A7342FBC930DECA0C3C /* Debug */,
+				F1EB7A9AA849459C8D5C365DB3C5149B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		536E37DCEAFCF55FEFCF608D4FDDF1EA /* Build configuration list for PBXNativeTarget "Pods-PixlSDKExampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C9C6E7C21732C44A2067EA5766238C6 /* Debug */,
+				C1EC3BA93DF11C43A1564AE8EE3B9BA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

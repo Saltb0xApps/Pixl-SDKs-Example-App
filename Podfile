@@ -9,5 +9,6 @@ target 'PixlSDKExampleApp' do
 pod 'PixlNFTsSDK', :git=> 'https://github.com/Saltb0xApps/Pixl-NFTs-SDK.git'
 pod 'PixlNFTsPlacementSDK', :git=> 'https://github.com/Saltb0xApps/Pixl-Placement-NFTs-SDK'
 pod 'PixlNFTsDiscoverySDK', :git=> 'https://github.com/Saltb0xApps/Pixl-Discovery-NFTs-SDK'
+pod 'PixlNFTsPortalsSDK', :git=> 'https://github.com/Saltb0xApps/Pixl-Portals-NFTs-SDK'
 
 end

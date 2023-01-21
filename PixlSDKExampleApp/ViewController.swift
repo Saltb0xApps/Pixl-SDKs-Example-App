@@ -9,6 +9,7 @@ import UIKit
 import PixlNFTsSDK
 import PixlNFTsPlacementSDK
 import PixlNFTsDiscoverySDK
+import PixlNFTsPortalsSDK
 
 class ViewController: UIViewController, PixlNFTsSDKDelegate, PixlNFTsPlacementSDKDelegate, PixlNFTsDiscoverViewControllerDelegate {
 
@@ -36,6 +37,21 @@ class ViewController: UIViewController, PixlNFTsSDKDelegate, PixlNFTsPlacementSD
         pixlDiscoveryVC.delegate = self
         pixlDiscoveryVC.licenseKey = ""
         self.present(pixlDiscoveryVC, animated: true)
+    }
+    
+    @IBAction func showNFTPortals(_ sender: Any) {
+        let NFT : PixlNFTsPortalsSDK.NFTAsset = NFTAsset.init(token_address: "0x8c0d8685afeaf558f271fd78e75e647f6357869b",
+                                                              token_id: "35917987",
+                                                              metadata: "{\"name\":\"Double Rainbow\",\"description\":\"Double Rainbow Wow!\",\"image\":\"https://firebasestorage.googleapis.com/v0/b/notifier-8eaa1.appspot.com/o/NFTs%2F1663987070.png?alt=media\",\"external_url\":\"\",\"animation_url\":\"\"}",
+                                                              name: "Double Rainbow",
+                                                              token_uri: "https://ipfs.moralis.io:2053/ipfs/bafkreigqpssejfeqiu2wbrbkieuphvmocamtdfbkxvbyhu33lc3srrhp6y",
+                                                              blockchain: "polygon")
+        
+        let pixlPortalsVC = PixlNFTsPortalsViewController.init()
+        pixlPortalsVC.licenseKey = ""
+        pixlPortalsVC.portalType = "1"
+        pixlPortalsVC.originalNFTs = [NFT, NFT, NFT, NFT, NFT, NFT, NFT] //max 7
+        self.present(pixlPortalsVC, animated: true)
     }
     
     //MARK: Pixl NFTs

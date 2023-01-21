@@ -1,3 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-PixlSDKExampleApp/Pods-PixlSDKExampleApp-frameworks.sh
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/PixlNFTsDiscoverySDK/PixlNFTsDiscoverySDK.framework/PixlNFTsDiscoverySDK
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/PixlNFTsPlacementSDK/PixlNFTsPlacementSDK.framework/PixlNFTsPlacementSDK
+${PODS_XCFRAMEWORKS_BUILD_DIR}/PixlNFTsPortalsSDK/PixlNFTsPortalsSDK.framework/PixlNFTsPortalsSDK

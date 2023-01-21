@@ -1,0 +1,80 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PixlNFTsPortalsSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import ARKit
+import Foundation
+import SceneKit.SCNNode
+import SceneKit
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class PixlNFTsPortalsViewController : UIKit.UIViewController, ARKit.ARSCNViewDelegate {
+  @_Concurrency.MainActor(unsafe) public var originalNFTs: [PixlNFTsPortalsSDK.NFTAsset]?
+  @_Concurrency.MainActor(unsafe) public var portalType: Swift.String?
+  @_Concurrency.MainActor(unsafe) public var licenseKey: Swift.String?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func didReceiveMemoryWarning()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @objc @_Concurrency.MainActor(unsafe) public func dismissAction()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc public func renderer(_ renderer: SceneKit.SCNSceneRenderer, didUpdate node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
+  @_Concurrency.MainActor(unsafe) @objc public func renderer(_ renderer: SceneKit.SCNSceneRenderer, didAdd node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
+  @_Concurrency.MainActor(unsafe) @objc public func renderer(_ renderer: SceneKit.SCNSceneRenderer, didRemove node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public class NFTAsset : Swift.Codable, Swift.Hashable {
+  public init(token_address: Swift.String? = nil, token_id: Swift.String? = nil, metadata: Swift.String? = nil, name: Swift.String? = nil, token_uri: Swift.String? = nil, blockchain: Swift.String? = nil)
+  public static func == (lhs: PixlNFTsPortalsSDK.NFTAsset, rhs: PixlNFTsPortalsSDK.NFTAsset) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public typealias CompletionHandler = (_ success: Swift.Bool, _ metadataURL: Swift.String) -> Swift.Void
+  public func getImageURL() -> Swift.String
+  public func getAnimationURL() -> Swift.String
+  public func fetchUpdateMetadata(completion: @escaping PixlNFTsPortalsSDK.NFTAsset.CompletionHandler)
+  public func getIPFSFormatted(ipfsURL: Swift.String) -> Swift.String
+  public func getName() -> Swift.String
+  public func getDescription() -> Swift.String
+  public func getExternalURL() -> Swift.String
+  public func getAttributes() -> [[Swift.String : Any]]
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+  required public init(from decoder: Swift.Decoder) throws
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) open class PortalMask : SceneKit.SCNNode {
+  @_Concurrency.MainActor(unsafe) public init(frameSize: CoreFoundation.CGSize, depth: CoreFoundation.CGFloat! = nil, outerMult: CoreFoundation.CGFloat = 3)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public class func tube(radius: CoreFoundation.CGFloat, subdivisions: Swift.Int = 7, depth: CoreFoundation.CGFloat! = nil, outerMult: CoreFoundation.CGFloat = 5) -> PixlNFTsPortalsSDK.PortalMask
+  @_Concurrency.MainActor(unsafe) public init(radius: CoreFoundation.CGFloat, flatness: CoreFoundation.CGFloat = 0.01, depth: CoreFoundation.CGFloat! = nil, outerMult: CoreFoundation.CGFloat = 5)
+  @_Concurrency.MainActor(unsafe) public init(path: [CoreFoundation.CGPoint], flatness: CoreFoundation.CGFloat = 0.6, depth: CoreFoundation.CGFloat! = nil, outerMult: CoreFoundation.CGFloat = 3)
+  @_Concurrency.MainActor(unsafe) public func updateGeometry(with path: [CoreFoundation.CGPoint])
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class CQImageDownloader : ObjectiveC.NSObject {
+  public func downloadImageWithProgress(_ url: Swift.String, progress: ((Swift.Float) -> Swift.Void)?, completion: ((UIKit.UIImage?, Swift.Bool) -> Swift.Void)?)
+  public func deleteCacheImage(_ url: Swift.String)
+  public static func clearAllTheCachedImages()
+  public func cancelDownload()
+  public func pauseDownload()
+  public func resumeDownload()
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension PixlNFTsPortalsSDK.CQImageDownloader : Foundation.URLSessionDelegate {
+  @objc dynamic public func urlSession(_ session: Foundation.URLSession, didReceive challenge: Foundation.URLAuthenticationChallenge, completionHandler: @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void)
+}
+extension PixlNFTsPortalsSDK.CQImageDownloader : Foundation.URLSessionDownloadDelegate {
+  @objc dynamic public func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, didCompleteWithError error: Swift.Error?)
+  @objc dynamic public func urlSession(_ session: Foundation.URLSession, downloadTask: Foundation.URLSessionDownloadTask, didFinishDownloadingTo location: Foundation.URL)
+  @objc dynamic public func urlSession(_ session: Foundation.URLSession, downloadTask: Foundation.URLSessionDownloadTask, didWriteData bytesWritten: Swift.Int64, totalBytesWritten: Swift.Int64, totalBytesExpectedToWrite: Swift.Int64)
+}

@@ -1,0 +1,22 @@
+{
+  "name": "PixlNFTsPortalsSDK",
+  "version": "1.0.2",
+  "summary": "open nft portals from the polygon blockchain anywhere in AR with persistence",
+  "homepage": "https://www.pixlapp.xyz",
+  "authors": {
+    "Akhil Tolani": "akhiltolani777@gmail.com"
+  },
+  "license": {
+    "type": "MIT",
+    "text": "MIT License"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source": {
+    "http": "https://github.com/Saltb0xApps/Pixl-Placement-NFTs-SDK/tree/main/PixlNFTsPortalsSDK.xcframework"
+  },
+  "ios": {
+    "vendored_frameworks": "PixlNFTsPortalsSDK.xcframework"
+  }
+}

@@ -9,6 +9,10 @@ MIT License
 
 MIT License
 
+## PixlNFTsPortalsSDK
+
+MIT License
+
 ## PixlNFTsSDK
 
 MIT License

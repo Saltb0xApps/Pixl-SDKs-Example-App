@@ -38,6 +38,16 @@
 			<key>License</key>
 			<string>MIT</string>
 			<key>Title</key>
+			<string>PixlNFTsPortalsSDK</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>MIT License</string>
+			<key>License</key>
+			<string>MIT</string>
+			<key>Title</key>
 			<string>PixlNFTsSDK</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>

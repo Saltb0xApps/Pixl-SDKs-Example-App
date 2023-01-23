@@ -431,7 +431,6 @@ extension UIKit.UIView {
   public var walletAddress: Swift.String?
   public var distanceInMiles: Swift.Double?
   public var snapshotURL: Swift.String?
-  public var headingAngle: Swift.Double?
   public var anchorUUID: Swift.String?
   public var showsFloating: Swift.String?
   public var showsOnMap: Swift.String?
@@ -441,7 +440,7 @@ extension UIKit.UIView {
   public static func == (lhs: PixlNFTsDiscoverySDK.NFTMetaverseItem, rhs: PixlNFTsDiscoverySDK.NFTMetaverseItem) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public func syncDistance()
-  public func syncHeading(myLocation: CoreLocation.CLLocation, NFTlocation: CoreLocation.CLLocation?)
+  public func bearing(myLocation: CoreLocation.CLLocation, NFTlocation: CoreLocation.CLLocationCoordinate2D) -> Swift.Double
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
   public var hashValue: Swift.Int {

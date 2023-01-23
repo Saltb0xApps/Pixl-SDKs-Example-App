@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/PixlNFTsPlacementSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		xLWJkDVtzpj0USZOiLosZk3UeOM=
+		Kz4T7hU+I+bhf9oYeoCstIib//0=
 		</data>
 		<key>Modules/PixlNFTsPlacementSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/PixlNFTsPlacementSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		W8mYk3dfqtpmgiiK8XBXBvEqWaY=
+		a9tQpgnxk0xkzfgLkpEPIxfmwxI=
 		</data>
 		<key>Modules/PixlNFTsPlacementSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		xLWJkDVtzpj0USZOiLosZk3UeOM=
+		Kz4T7hU+I+bhf9oYeoCstIib//0=
 		</data>
 		<key>Modules/PixlNFTsPlacementSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/PixlNFTsPlacementSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		h0GjCPDBrK+uMTfmtd/8HMF+E4o=
+		rGLREoXpbilOiq8TfFKsd+teHFQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZofXIbJP0+bNv6h8cz/3fl0MaqpT4AG0ouBU1D5NQng=
+			s1lY42oQm31uSmWvnmAQA7cTbN8nAgq5trgv/2tye1I=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsPlacementSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -117,14 +117,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8cV/llxUPblnHLNYznBoau+ecDHbv4PgK/MmSr3WBdg=
+			0fpAV/KVtV1m2uAYc27VSzZPX5IYBnNPwyq1pNx6PeI=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsPlacementSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZofXIbJP0+bNv6h8cz/3fl0MaqpT4AG0ouBU1D5NQng=
+			s1lY42oQm31uSmWvnmAQA7cTbN8nAgq5trgv/2tye1I=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsPlacementSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -152,7 +152,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jti2QkN3kfnnAHY9rsuuR7mi76sIv2iX03yFJtfMmYw=
+			IOiQDAtdF1oqT+rAfRlWo8HJHUiEag526tCXsJmRc+8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

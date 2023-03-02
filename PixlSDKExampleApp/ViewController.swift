@@ -11,10 +11,12 @@ import PixlNFTsPlacementSDK
 import PixlNFTsDiscoverySDK
 import PixlNFTsPortalsSDK
 
-class ViewController: UIViewController, PixlNFTsSDKDelegate, PixlNFTsPlacementSDKDelegate, PixlNFTsDiscoverViewControllerDelegate {
+class ViewController: UIViewController, PixlNFTsPlacementSDKDelegate, PixlNFTsDiscoverViewControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.mintNFT()
     }
     
     //MARK: Pixl AR NFTs
@@ -57,35 +59,34 @@ class ViewController: UIViewController, PixlNFTsSDKDelegate, PixlNFTsPlacementSD
     //MARK: Pixl NFTs
     func smartContract() {
         let pixlMintSC = PixlNFTs.init(license: "")
-        pixlMintSC.delegate = self
         pixlMintSC.createSmartContract(ownerWalletAddress: "0xb179603336B7580F0f845b1366D0c20A00995779", /*wallet address of the owner of nft collection*/
                                        name: "NFT Collection Name", /*name of the NFT collection*/
                                        symbol: "PXL") /*any 3 letter word to show up as symbol*/
+        { success, data, error in
+            DispatchQueue.main.async {
+                print("didCompleteNFTSmartContract = \(data)")
+            }
+        }
     }
     func mintNFT() {
         let pixlMintSC = PixlNFTs.init(license: "")
-        pixlMintSC.delegate = self
         pixlMintSC.mintNFT(destinationWalletAddress: "0xb179603336B7580F0f845b1366D0c20A00995779", /*wallet address of the person reciving/creating the NFT*/
-                           contractAddress:"0x...", /*smart contract created in smartContract() function*/
+                           contractAddress:"0xb64af5dce3e1ebf64d92438d200582b082c4647a", /*smart contract created in smartContract() function*/
                            nftName: "NFT Name 1",
                            nftDescription: "NFT Description 1",
                            nftImageURL: "https://uploads-ssl.webflow.com/62ce91f02ab9f25fd63d192b/62d815e1407bd5ace724e13b_Pixl-Logo-1-p-500.png", /*any image URL*/
                            nftAttachmentURL: "", /*URL of any .usdz file if you want to show a 3D object, .mp3 for audio file*/
-                           nftExternalURL: "") /*any url like https://google.com or https://pixlapp.xyz or something you'd want to show on opensea. Can be blank*/
-    }
-    
-    //MARK: PixlNFTsSDKDelegate
-    func didCompleteNFTMint(success: Bool, data: [String : Any], error: String?) {
-        print("\(data)")
-    }
-    
-    func didCompleteNFTSmartContract(success: Bool, data: [String : Any], error: String?) {
-        print("\(data)")
+                           nftExternalURL: "https://akhiltolani.com") /*any url like https://google.com or https://pixlapp.xyz or something you'd want to show on opensea. Can be blank*/
+        { success, data, error in
+            DispatchQueue.main.async {
+                print("didCompleteNFTMint = \(data)")
+            }
+        }
     }
     
     //MARK: PixlNFTsPlacementSDKDelegate
     func didCompleteNFTPlacement(success: Bool, data: [String : Any], error: String?) {
-        print("\(data)")
+        print("didCompleteNFTPlacement = \(data)")
     }
     
     //MARK: PixlNFTsDiscoverViewControllerDelegate

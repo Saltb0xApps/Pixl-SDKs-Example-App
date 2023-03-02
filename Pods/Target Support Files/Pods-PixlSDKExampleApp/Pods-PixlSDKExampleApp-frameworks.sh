@@ -179,11 +179,13 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/PixlNFTsDiscoverySDK/PixlNFTsDiscoverySDK.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/PixlNFTsPlacementSDK/PixlNFTsPlacementSDK.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/PixlNFTsPortalsSDK/PixlNFTsPortalsSDK.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/PixlNFTsSDK/PixlNFTsSDK.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/PixlNFTsDiscoverySDK/PixlNFTsDiscoverySDK.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/PixlNFTsPlacementSDK/PixlNFTsPlacementSDK.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/PixlNFTsPortalsSDK/PixlNFTsPortalsSDK.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/PixlNFTsSDK/PixlNFTsSDK.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

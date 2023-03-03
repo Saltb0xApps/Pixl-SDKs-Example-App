@@ -61,7 +61,7 @@ public class NFTAsset : Swift.Codable, Swift.Hashable {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class CQImageDownloader : ObjectiveC.NSObject {
-  public func downloadImageWithProgress(_ url: Swift.String, progress: ((Swift.Float) -> Swift.Void)?, completion: ((UIKit.UIImage?, Swift.Bool) -> Swift.Void)?)
+  public func downloadImageWithProgress(_ url: Swift.String, progress: ((Swift.Float) -> Swift.Void)?, completion: ((UIKit.UIImage?, Swift.Bool, Swift.String?) -> Swift.Void)?)
   public func deleteCacheImage(_ url: Swift.String)
   public static func clearAllTheCachedImages()
   public func cancelDownload()

@@ -1936,12 +1936,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((UIKit.UIImage?, Swift.Bool) -> ())?",
+                "printedName": "((UIKit.UIImage?, Swift.Bool, Swift.String?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(UIKit.UIImage?, Swift.Bool) -> ()",
+                    "printedName": "(UIKit.UIImage?, Swift.Bool, Swift.String?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1951,7 +1951,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(UIKit.UIImage?, Swift.Bool)",
+                        "printedName": "(UIKit.UIImage?, Swift.Bool, Swift.String?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -1972,6 +1972,20 @@
                             "name": "Bool",
                             "printedName": "Swift.Bool",
                             "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
                           }
                         ]
                       }
@@ -1982,8 +1996,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:18PixlNFTsPortalsSDK17CQImageDownloaderC25downloadImageWithProgress_8progress10completionySS_ySfcSgySo7UIImageCSg_SbtcSgtF",
-            "mangledName": "$s18PixlNFTsPortalsSDK17CQImageDownloaderC25downloadImageWithProgress_8progress10completionySS_ySfcSgySo7UIImageCSg_SbtcSgtF",
+            "usr": "s:18PixlNFTsPortalsSDK17CQImageDownloaderC25downloadImageWithProgress_8progress10completionySS_ySfcSgySo7UIImageCSg_SbSSSgtcSgtF",
+            "mangledName": "$s18PixlNFTsPortalsSDK17CQImageDownloaderC25downloadImageWithProgress_8progress10completionySS_ySfcSgySo7UIImageCSg_SbSSSgtcSgtF",
             "moduleName": "PixlNFTsPortalsSDK",
             "declAttributes": [
               "AccessControl",

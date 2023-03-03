@@ -16,7 +16,6 @@
 			dependencies = (
 			);
 			name = PixlNFTsPortalsSDK;
-			productName = PixlNFTsPortalsSDK;
 		};
 		2A7B9111C68B1049F811116DE61115F3 /* PixlNFTsDiscoverySDK */ = {
 			isa = PBXAggregateTarget;
@@ -27,7 +26,6 @@
 			dependencies = (
 			);
 			name = PixlNFTsDiscoverySDK;
-			productName = PixlNFTsDiscoverySDK;
 		};
 		4A9238CC3A5D48EF84977BBFCA4373C7 /* PixlNFTsSDK */ = {
 			isa = PBXAggregateTarget;
@@ -38,7 +36,6 @@
 			dependencies = (
 			);
 			name = PixlNFTsSDK;
-			productName = PixlNFTsSDK;
 		};
 		A7667A205A95B539DAEBD9127766B705 /* PixlNFTsPlacementSDK */ = {
 			isa = PBXAggregateTarget;
@@ -49,7 +46,6 @@
 			dependencies = (
 			);
 			name = PixlNFTsPlacementSDK;
-			productName = PixlNFTsPlacementSDK;
 		};
 /* End PBXAggregateTarget section */
 
@@ -98,19 +94,19 @@
 		4680551BAB32E3716976592B2CFF3CE0 /* Pods-PixlSDKExampleApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PixlSDKExampleApp"; path = Pods_PixlSDKExampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FC151F3B4614CE304418F9328904A55 /* Pods-PixlSDKExampleApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PixlSDKExampleApp-dummy.m"; sourceTree = "<group>"; };
 		6523852704ED8DFDF29460BE49C0DFAE /* Pods-PixlSDKExampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PixlSDKExampleApp.release.xcconfig"; sourceTree = "<group>"; };
-		6E5557974EC067734F3224C0BB01D19A /* PixlNFTsDiscoverySDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = PixlNFTsDiscoverySDK.xcframework; sourceTree = "<group>"; };
-		6EFCE632A388ECEF9EBB7002EC39E176 /* PixlNFTsSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = PixlNFTsSDK.xcframework; sourceTree = "<group>"; };
+		6E5557974EC067734F3224C0BB01D19A /* PixlNFTsDiscoverySDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = PixlNFTsDiscoverySDK.xcframework; sourceTree = "<group>"; };
+		6EFCE632A388ECEF9EBB7002EC39E176 /* PixlNFTsSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = PixlNFTsSDK.xcframework; sourceTree = "<group>"; };
 		72EA8AD8AF83B69AA877980047F3FB74 /* PixlNFTsPlacementSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "PixlNFTsPlacementSDK-xcframeworks.sh"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		738F519FE9BBDA4F984792C4D3E0E864 /* Pods-PixlSDKExampleApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PixlSDKExampleApp-Info.plist"; sourceTree = "<group>"; };
 		76C5A7D6ECB59C3A5B65A7B9C6F51051 /* PixlNFTsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PixlNFTsSDK.release.xcconfig; sourceTree = "<group>"; };
-		87049D91E0E85ECE7CA377350B69F6FE /* PixlNFTsPlacementSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = PixlNFTsPlacementSDK.xcframework; sourceTree = "<group>"; };
+		87049D91E0E85ECE7CA377350B69F6FE /* PixlNFTsPlacementSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = PixlNFTsPlacementSDK.xcframework; sourceTree = "<group>"; };
 		8D46A58313E38B87FCAE408CB715392A /* PixlNFTsDiscoverySDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "PixlNFTsDiscoverySDK-xcframeworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F2EB0E4FB27AA4121C415284FFB9E91 /* Pods-PixlSDKExampleApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PixlSDKExampleApp-umbrella.h"; sourceTree = "<group>"; };
 		A3D25CF65621E94C08BFDA7ECD49ADB9 /* PixlNFTsPlacementSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PixlNFTsPlacementSDK.release.xcconfig; sourceTree = "<group>"; };
 		A953376656C201E5717A2D4BF2738BCD /* Pods-PixlSDKExampleApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PixlSDKExampleApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B80F2CFBACD157610000DC31CAFAA8FF /* PixlNFTsPortalsSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = PixlNFTsPortalsSDK.xcframework; sourceTree = "<group>"; };
+		B80F2CFBACD157610000DC31CAFAA8FF /* PixlNFTsPortalsSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = PixlNFTsPortalsSDK.xcframework; sourceTree = "<group>"; };
 		D05D5B550F95BE6A98A207F271325BA3 /* Pods-PixlSDKExampleApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PixlSDKExampleApp-frameworks.sh"; sourceTree = "<group>"; };
 		D0CDA7AC08672B3040D011330F692C95 /* Pods-PixlSDKExampleApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PixlSDKExampleApp.modulemap"; sourceTree = "<group>"; };
 		D60A94F49723A9204FDB8F61656E77CC /* Pods-PixlSDKExampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PixlSDKExampleApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -150,6 +146,7 @@
 				CF3FCFD263D1C8130F9BC528DECCDD41 /* Frameworks */,
 				00B7EE612B71F01392CDC1E29C312F18 /* Support Files */,
 			);
+			name = PixlNFTsSDK;
 			path = PixlNFTsSDK;
 			sourceTree = "<group>";
 		};
@@ -211,6 +208,7 @@
 				CB3059D50E45B7858FDA17D58C77CFAD /* Frameworks */,
 				9019CCCD93F48CFACFCFB82D6E8302B6 /* Support Files */,
 			);
+			name = PixlNFTsDiscoverySDK;
 			path = PixlNFTsDiscoverySDK;
 			sourceTree = "<group>";
 		};
@@ -296,6 +294,7 @@
 				884496A7488DB83269AE9FD656F807FB /* Frameworks */,
 				4193714D5EAB7F6293E07B97F9368899 /* Support Files */,
 			);
+			name = PixlNFTsPlacementSDK;
 			path = PixlNFTsPlacementSDK;
 			sourceTree = "<group>";
 		};
@@ -305,6 +304,7 @@
 				368F366E7AF6447C9BA2C9501D80D4AF /* Frameworks */,
 				A408287819DEF830195DE020DFFC6793 /* Support Files */,
 			);
+			name = PixlNFTsPortalsSDK;
 			path = PixlNFTsPortalsSDK;
 			sourceTree = "<group>";
 		};
@@ -359,7 +359,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -626,7 +626,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -693,7 +692,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;

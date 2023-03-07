@@ -1448,6 +1448,27 @@
           },
           {
             "kind": "Function",
+            "name": "positionAnchor",
+            "printedName": "positionAnchor()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20PixlNFTsPlacementSDK0abC14ViewControllerC14positionAnchoryyF",
+            "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC14positionAnchoryyF",
+            "moduleName": "PixlNFTsPlacementSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "saveAnchor",
             "printedName": "saveAnchor()",
             "children": [
@@ -1458,12 +1479,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:20PixlNFTsPlacementSDK0abC14ViewControllerC10saveAnchoryyF",
+            "usr": "c:@M@PixlNFTsPlacementSDK@objc(cs)PixlNFTsPlacementViewController(im)saveAnchor",
             "mangledName": "$s20PixlNFTsPlacementSDK0abC14ViewControllerC10saveAnchoryyF",
             "moduleName": "PixlNFTsPlacementSDK",
             "declAttributes": [
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1828,16 +1850,23 @@
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPlacementSDK\/PixlNFTsPlacementSDK\/Controllers\/PixlNFTsPlacementViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 231,
+      "offset": 235,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPlacementSDK\/PixlNFTsPlacementSDK\/Controllers\/PixlNFTsPlacementViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 262,
+      "offset": 265,
       "length": 1,
       "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPlacementSDK\/PixlNFTsPlacementSDK\/Controllers\/PixlNFTsPlacementViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 296,
+      "length": 1,
+      "value": "3"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPlacementSDK\/PixlNFTsPlacementSDK\/Controllers\/PixlNFTsPlacementViewController.swift",
@@ -1849,16 +1878,23 @@
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPlacementSDK\/PixlNFTsPlacementSDK\/Controllers\/PixlNFTsPlacementViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 231,
+      "offset": 235,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPlacementSDK\/PixlNFTsPlacementSDK\/Controllers\/PixlNFTsPlacementViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 262,
+      "offset": 265,
       "length": 1,
       "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPlacementSDK\/PixlNFTsPlacementSDK\/Controllers\/PixlNFTsPlacementViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 296,
+      "length": 1,
+      "value": "3"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPlacementSDK\/PixlNFTsPlacementSDK\/Controllers\/PixlNFTsPlacementViewController.swift",
@@ -1870,35 +1906,42 @@
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPlacementSDK\/PixlNFTsPlacementSDK\/Controllers\/PixlNFTsPlacementViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 231,
+      "offset": 235,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPlacementSDK\/PixlNFTsPlacementSDK\/Controllers\/PixlNFTsPlacementViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 262,
+      "offset": 265,
       "length": 1,
       "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPlacementSDK\/PixlNFTsPlacementSDK\/Controllers\/PixlNFTsPlacementViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 296,
+      "length": 1,
+      "value": "3"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPlacementSDK\/PixlNFTsPlacementSDK\/Controllers\/PixlNFTsPlacementViewController.swift",
       "kind": "StringLiteral",
-      "offset": 707,
+      "offset": 741,
       "length": 54,
       "value": "\"https:\/\/pixl-placements-sdk.herokuapp.com\/placements\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPlacementSDK\/PixlNFTsPlacementSDK\/Controllers\/PixlNFTsPlacementViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1134,
+      "offset": 1229,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPlacementSDK\/PixlNFTsPlacementSDK\/Controllers\/PixlNFTsPlacementViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1168,
+      "offset": 1263,
       "length": 2,
       "value": "\"\""
     }

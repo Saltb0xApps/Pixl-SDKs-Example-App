@@ -51,7 +51,8 @@ public protocol PixlNFTsPlacementSDKDelegate : AnyObject {
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func touchesEnded(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
   @_Concurrency.MainActor(unsafe) public func addAnchor(withTransform transform: simd.matrix_float4x4)
-  @_Concurrency.MainActor(unsafe) public func saveAnchor()
+  @_Concurrency.MainActor(unsafe) public func positionAnchor()
+  @objc @_Concurrency.MainActor(unsafe) public func saveAnchor()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/PixlNFTsPlacementSDK-Swift.h</key>
 		<data>
-		GKTvbUiN8lcdqxXheAWehuS03gI=
+		t2/DQWKaIK0mmpCNYpwzHgSpiZw=
 		</data>
 		<key>Headers/PixlNFTsPlacementSDK.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/PixlNFTsPlacementSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Kz4T7hU+I+bhf9oYeoCstIib//0=
+		2XJTjCM58eCaERe3C3sNM62RO7I=
 		</data>
 		<key>Modules/PixlNFTsPlacementSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		EolashFqQxp9cB/r64M+OAY2Zi8=
+		xC8wB32dK/skQlSPGQ6oMhnTV+c=
 		</data>
 		<key>Modules/PixlNFTsPlacementSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/PixlNFTsPlacementSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		EolashFqQxp9cB/r64M+OAY2Zi8=
+		xC8wB32dK/skQlSPGQ6oMhnTV+c=
 		</data>
 		<key>Modules/PixlNFTsPlacementSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		a9tQpgnxk0xkzfgLkpEPIxfmwxI=
+		3Z1CBDa5IF6bSCY3rpWqlYZhKl0=
 		</data>
 		<key>Modules/PixlNFTsPlacementSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Kz4T7hU+I+bhf9oYeoCstIib//0=
+		2XJTjCM58eCaERe3C3sNM62RO7I=
 		</data>
 		<key>Modules/PixlNFTsPlacementSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		NVy9O5MxPRTCIELaGEPkfjPBFpA=
+		OL/pmoGUUssU7b77FsB9QNADAtk=
 		</data>
 		<key>Modules/PixlNFTsPlacementSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/PixlNFTsPlacementSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		NVy9O5MxPRTCIELaGEPkfjPBFpA=
+		OL/pmoGUUssU7b77FsB9QNADAtk=
 		</data>
 		<key>Modules/PixlNFTsPlacementSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rGLREoXpbilOiq8TfFKsd+teHFQ=
+		vAEgbNk+2c5tJm6zb9YH3g8QiAg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -75,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0yQOWCfula39kW7ELEPpuFLW+Qb+5EA/0PvY7luD9AU=
+			Q2Jg6c+0YjPf7V6TfNu3wqo5jNSk8ZXGRW5T1b2QYw0=
 			</data>
 		</dict>
 		<key>Headers/PixlNFTsPlacementSDK.h</key>
@@ -89,14 +89,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			s1lY42oQm31uSmWvnmAQA7cTbN8nAgq5trgv/2tye1I=
+			42t23AicF+1UFkNQsah9QeROuQAnK7nz361Ye0YDH7s=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsPlacementSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b56SVK84G+N7JJZFthcZKZTXtDlkNlhPEM7Arbu86r0=
+			QWC5N4lwU54MGavzCbBdyA1+eDOEGZaAVyDKslhXcXQ=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsPlacementSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -110,28 +110,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			b56SVK84G+N7JJZFthcZKZTXtDlkNlhPEM7Arbu86r0=
+			QWC5N4lwU54MGavzCbBdyA1+eDOEGZaAVyDKslhXcXQ=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsPlacementSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0fpAV/KVtV1m2uAYc27VSzZPX5IYBnNPwyq1pNx6PeI=
+			d6xee1Tr4brkE7oEB4hLmbHB+WApZqXSlA7mucOhuHk=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsPlacementSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s1lY42oQm31uSmWvnmAQA7cTbN8nAgq5trgv/2tye1I=
+			42t23AicF+1UFkNQsah9QeROuQAnK7nz361Ye0YDH7s=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsPlacementSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ifOi9u/CXnG4muemHPD+cvNhA71LQ4SF4tL806hVEpQ=
+			pq/y4By/8pa8pT/ZvEclBvpncQ7f1MJ4zgLtVOiB0QI=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsPlacementSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -145,14 +145,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ifOi9u/CXnG4muemHPD+cvNhA71LQ4SF4tL806hVEpQ=
+			pq/y4By/8pa8pT/ZvEclBvpncQ7f1MJ4zgLtVOiB0QI=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsPlacementSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IOiQDAtdF1oqT+rAfRlWo8HJHUiEag526tCXsJmRc+8=
+			USFBLFqqfGgfvNyJ90ITIhF7OyNV46qzO5oEivtq2es=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -978,26 +978,25 @@
           },
           {
             "kind": "Var",
-            "name": "annotationHeightAdjustmentFactor",
-            "printedName": "annotationHeightAdjustmentFactor",
+            "name": "scaleFactor",
+            "printedName": "scaleFactor",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
               }
             ],
             "declKind": "Var",
-            "usr": "s:20PixlNFTsDiscoverySDK22LocationAnnotationNodeC32annotationHeightAdjustmentFactorSdvp",
-            "mangledName": "$s20PixlNFTsDiscoverySDK22LocationAnnotationNodeC32annotationHeightAdjustmentFactorSdvp",
+            "usr": "s:20PixlNFTsDiscoverySDK22LocationAnnotationNodeC11scaleFactorSfvp",
+            "mangledName": "$s20PixlNFTsDiscoverySDK22LocationAnnotationNodeC11scaleFactorSfvp",
             "moduleName": "PixlNFTsDiscoverySDK",
             "declAttributes": [
               "Custom",
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1008,14 +1007,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:20PixlNFTsDiscoverySDK22LocationAnnotationNodeC32annotationHeightAdjustmentFactorSdvg",
-                "mangledName": "$s20PixlNFTsDiscoverySDK22LocationAnnotationNodeC32annotationHeightAdjustmentFactorSdvg",
+                "usr": "s:20PixlNFTsDiscoverySDK22LocationAnnotationNodeC11scaleFactorSfvg",
+                "mangledName": "$s20PixlNFTsDiscoverySDK22LocationAnnotationNodeC11scaleFactorSfvg",
                 "moduleName": "PixlNFTsDiscoverySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1032,14 +1031,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:20PixlNFTsDiscoverySDK22LocationAnnotationNodeC32annotationHeightAdjustmentFactorSdvs",
-                "mangledName": "$s20PixlNFTsDiscoverySDK22LocationAnnotationNodeC32annotationHeightAdjustmentFactorSdvs",
+                "usr": "s:20PixlNFTsDiscoverySDK22LocationAnnotationNodeC11scaleFactorSfvs",
+                "mangledName": "$s20PixlNFTsDiscoverySDK22LocationAnnotationNodeC11scaleFactorSfvs",
                 "moduleName": "PixlNFTsDiscoverySDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1056,8 +1055,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:20PixlNFTsDiscoverySDK22LocationAnnotationNodeC32annotationHeightAdjustmentFactorSdvM",
-                "mangledName": "$s20PixlNFTsDiscoverySDK22LocationAnnotationNodeC32annotationHeightAdjustmentFactorSdvM",
+                "usr": "s:20PixlNFTsDiscoverySDK22LocationAnnotationNodeC11scaleFactorSfvM",
+                "mangledName": "$s20PixlNFTsDiscoverySDK22LocationAnnotationNodeC11scaleFactorSfvM",
                 "moduleName": "PixlNFTsDiscoverySDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1067,7 +1066,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(location:view:)",
+            "printedName": "init(location:view:adjustmentScaleFactor:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1094,11 +1093,17 @@
                 "name": "UIView",
                 "printedName": "UIKit.UIView",
                 "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:20PixlNFTsDiscoverySDK22LocationAnnotationNodeC8location4viewACSo10CLLocationCSg_So6UIViewCtcfc",
-            "mangledName": "$s20PixlNFTsDiscoverySDK22LocationAnnotationNodeC8location4viewACSo10CLLocationCSg_So6UIViewCtcfc",
+            "usr": "s:20PixlNFTsDiscoverySDK22LocationAnnotationNodeC8location4view21adjustmentScaleFactorACSo10CLLocationCSg_So6UIViewCSftcfc",
+            "mangledName": "$s20PixlNFTsDiscoverySDK22LocationAnnotationNodeC8location4view21adjustmentScaleFactorACSo10CLLocationCSg_So6UIViewCSftcfc",
             "moduleName": "PixlNFTsDiscoverySDK",
             "declAttributes": [
               "Custom",
@@ -1151,7 +1156,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(location:node:)",
+            "printedName": "init(location:node:adjustmentScaleFactor:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1178,11 +1183,17 @@
                 "name": "SCNNode",
                 "printedName": "SceneKit.SCNNode",
                 "usr": "c:objc(cs)SCNNode"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:20PixlNFTsDiscoverySDK22LocationAnnotationNodeC8location4nodeACSo10CLLocationCSg_So7SCNNodeCtcfc",
-            "mangledName": "$s20PixlNFTsDiscoverySDK22LocationAnnotationNodeC8location4nodeACSo10CLLocationCSg_So7SCNNodeCtcfc",
+            "usr": "s:20PixlNFTsDiscoverySDK22LocationAnnotationNodeC8location4node21adjustmentScaleFactorACSo10CLLocationCSg_So7SCNNodeCSftcfc",
+            "mangledName": "$s20PixlNFTsDiscoverySDK22LocationAnnotationNodeC8location4node21adjustmentScaleFactorACSo10CLLocationCSg_So7SCNNodeCSftcfc",
             "moduleName": "PixlNFTsDiscoverySDK",
             "declAttributes": [
               "Custom",
@@ -11032,6 +11043,116 @@
           },
           {
             "kind": "Var",
+            "name": "scale",
+            "printedName": "scale",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20PixlNFTsDiscoverySDK16NFTMetaverseItemC5scaleSSSgvp",
+            "mangledName": "$s20PixlNFTsDiscoverySDK16NFTMetaverseItemC5scaleSSSgvp",
+            "moduleName": "PixlNFTsDiscoverySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20PixlNFTsDiscoverySDK16NFTMetaverseItemC5scaleSSSgvg",
+                "mangledName": "$s20PixlNFTsDiscoverySDK16NFTMetaverseItemC5scaleSSSgvg",
+                "moduleName": "PixlNFTsDiscoverySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20PixlNFTsDiscoverySDK16NFTMetaverseItemC5scaleSSSgvs",
+                "mangledName": "$s20PixlNFTsDiscoverySDK16NFTMetaverseItemC5scaleSSSgvs",
+                "moduleName": "PixlNFTsDiscoverySDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20PixlNFTsDiscoverySDK16NFTMetaverseItemC5scaleSSSgvM",
+                "mangledName": "$s20PixlNFTsDiscoverySDK16NFTMetaverseItemC5scaleSSSgvM",
+                "moduleName": "PixlNFTsDiscoverySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "location",
             "printedName": "location",
             "children": [
@@ -16217,15 +16338,15 @@
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/ExternalLibraries\/ARCL\/Sources\/ARKit-CoreLocation\/Nodes\/LocationAnnotationNode.swift",
-      "kind": "FloatLiteral",
-      "offset": 907,
-      "length": 3,
-      "value": "1.1"
+      "kind": "IntegerLiteral",
+      "offset": 552,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/ExternalLibraries\/ARCL\/Sources\/ARKit-CoreLocation\/Nodes\/LocationAnnotationNode.swift",
       "kind": "BooleanLiteral",
-      "offset": 2710,
+      "offset": 2419,
       "length": 5,
       "value": "false"
     },
@@ -16477,240 +16598,254 @@
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2256,
+      "offset": 2286,
       "length": 18,
       "value": "\"contract_address\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2299,
+      "offset": 2329,
       "length": 11,
       "value": "\"image_url\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2339,
+      "offset": 2369,
       "length": 15,
       "value": "\"animation_url\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2378,
+      "offset": 2408,
       "length": 9,
       "value": "\"latlong\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2412,
+      "offset": 2442,
       "length": 10,
       "value": "\"location\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2443,
+      "offset": 2473,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2475,
+      "offset": 2505,
       "length": 11,
       "value": "\"permalink\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2512,
+      "offset": 2542,
       "length": 11,
       "value": "\"timestamp\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2547,
+      "offset": 2577,
       "length": 10,
       "value": "\"token_id\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2587,
+      "offset": 2617,
       "length": 16,
       "value": "\"wallet_address\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2630,
+      "offset": 2660,
       "length": 13,
       "value": "\"anchor_uuid\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2670,
+      "offset": 2700,
       "length": 14,
       "value": "\"shows_on_map\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2712,
+      "offset": 2742,
       "length": 14,
       "value": "\"snapshot_url\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2756,
+      "offset": 2786,
       "length": 16,
       "value": "\"shows_floating\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2798,
+      "offset": 2828,
       "length": 11,
       "value": "\"claimable\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2836,
+      "offset": 2866,
       "length": 12,
       "value": "\"multiclaim\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2871,
+      "offset": 2901,
       "length": 8,
       "value": "\"claims\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2256,
+      "offset": 2931,
+      "length": 7,
+      "value": "\"scale\""
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
+      "kind": "StringLiteral",
+      "offset": 2286,
       "length": 18,
       "value": "\"contract_address\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2299,
+      "offset": 2329,
       "length": 11,
       "value": "\"image_url\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2339,
+      "offset": 2369,
       "length": 15,
       "value": "\"animation_url\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2378,
+      "offset": 2408,
       "length": 9,
       "value": "\"latlong\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2412,
+      "offset": 2442,
       "length": 10,
       "value": "\"location\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2443,
+      "offset": 2473,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2475,
+      "offset": 2505,
       "length": 11,
       "value": "\"permalink\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2512,
+      "offset": 2542,
       "length": 11,
       "value": "\"timestamp\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2547,
+      "offset": 2577,
       "length": 10,
       "value": "\"token_id\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2587,
+      "offset": 2617,
       "length": 16,
       "value": "\"wallet_address\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2630,
+      "offset": 2660,
       "length": 13,
       "value": "\"anchor_uuid\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2670,
+      "offset": 2700,
       "length": 14,
       "value": "\"shows_on_map\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2712,
+      "offset": 2742,
       "length": 14,
       "value": "\"snapshot_url\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2756,
+      "offset": 2786,
       "length": 16,
       "value": "\"shows_floating\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2798,
+      "offset": 2828,
       "length": 11,
       "value": "\"claimable\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2836,
+      "offset": 2866,
       "length": 12,
       "value": "\"multiclaim\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
       "kind": "StringLiteral",
-      "offset": 2871,
+      "offset": 2901,
       "length": 8,
       "value": "\"claims\""
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/Models\/NFTMetaverseItem.swift",
+      "kind": "StringLiteral",
+      "offset": 2931,
+      "length": 7,
+      "value": "\"scale\""
     }
   ]
 }

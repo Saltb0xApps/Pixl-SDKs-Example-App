@@ -16,6 +16,19 @@
 		FF84A60286C60F53ECC59FCC /* Pods_PixlSDKExampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C9F2145BD3EDE96EC924D6 /* Pods_PixlSDKExampleApp.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		954F806729BAB674005B0C0A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		2247638A67A8B515107469B2 /* Pods-PixlSDKExampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixlSDKExampleApp.debug.xcconfig"; path = "Target Support Files/Pods-PixlSDKExampleApp/Pods-PixlSDKExampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		65C9F2145BD3EDE96EC924D6 /* Pods_PixlSDKExampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PixlSDKExampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +120,7 @@
 				9553B5642918D961003F6E09 /* Frameworks */,
 				9553B5652918D961003F6E09 /* Resources */,
 				27C30F56C9C977CECB5D72A7 /* [CP] Embed Pods Frameworks */,
+				954F806729BAB674005B0C0A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

@@ -18,23 +18,23 @@
 		</data>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		hRtB0s1Avfj8GZLXds7dTMyJcx4=
+		fghQsPVjZWIMK2T3ikujAhY0w4s=
 		</data>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		xhNVVVHTHR1TvgyKwReft1yFFqo=
+		m/FLstusEnZ7wqZ+FarO1uGDSt4=
 		</data>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		W0uWOJiSBUmswSx6cW3/ANFFeeY=
+		M+Ne7P6Nu7XUO6ymAGSSahECZxY=
 		</data>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		xhNVVVHTHR1TvgyKwReft1yFFqo=
+		m/FLstusEnZ7wqZ+FarO1uGDSt4=
 		</data>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		5jv9E0naK6ma9o/wquV91/+fzAU=
+		bqfym745Mq8GKhZRt3/cbfAId6I=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -85,35 +85,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PJ9FV8GuaMrLZy7gvbNx/EjtPcEIfOLjAvDZDtd5IVA=
+			ltnOMNgiVNjx/ugCxvGKd4NGMpGdmb+jiTGNWMz30nE=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sjdm7ga6D+ckFuu6PttWBwiSbACTVJhtCZJaXhuGSIA=
+			wbohDzzufAlgxKVgIyBKhaYtSRaQh1Ch0f/aLLy6/Xo=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			I3dmEg7ZHEvGTdYJdmmTk9qDJxB7uOPDd3lmqoBJOio=
+			VMY8/97haG/s/Rc5+fcJZEU/FVQvgNmerNkU6V4//zo=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sjdm7ga6D+ckFuu6PttWBwiSbACTVJhtCZJaXhuGSIA=
+			wbohDzzufAlgxKVgIyBKhaYtSRaQh1Ch0f/aLLy6/Xo=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4Up6tWtgPYbdXL75E887OcjwMcExZVfYlj5SgLeeXFo=
+			r4XEHeBBhu3nxyiuaV+3aAOpR8MlfkGF33S1njggQWo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -21,7 +21,7 @@ class ViewController: UIViewController, PixlNFTsPlacementSDKDelegate, PixlNFTsDi
     @IBAction func showARNFTsPlacement(_ sender: Any) {
         let pixlPlacementVC = PixlNFTsPlacementViewController.init()
         pixlPlacementVC.delegate = self
-        pixlPlacementVC.licenseKey = ""
+        pixlPlacementVC.licenseKey = "e04ffd1f-9d2f-4989-976b-a212be9e3873"
         pixlPlacementVC.creatorWalletAddress = "0xb179603336B7580F0f845b1366D0c20A00995779" /*wallet address of the person placing the NFT*/
         pixlPlacementVC.placementNFT = NFTAsset.init(token_address: "0x8c0d8685afeaf558f271fd78e75e647f6357869b",
                                                      token_id: "35917987",
@@ -36,7 +36,7 @@ class ViewController: UIViewController, PixlNFTsPlacementSDKDelegate, PixlNFTsDi
     @IBAction func showARNFTsDiscovery(_ sender: Any) {
         let pixlDiscoveryVC = PixlNFTsDiscoverViewController.init()
         pixlDiscoveryVC.delegate = self
-        pixlDiscoveryVC.licenseKey = ""
+        pixlDiscoveryVC.licenseKey = "e04ffd1f-9d2f-4989-976b-a212be9e3873"
         pixlDiscoveryVC.modalPresentationStyle = .fullScreen
         self.present(pixlDiscoveryVC, animated: true)
     }

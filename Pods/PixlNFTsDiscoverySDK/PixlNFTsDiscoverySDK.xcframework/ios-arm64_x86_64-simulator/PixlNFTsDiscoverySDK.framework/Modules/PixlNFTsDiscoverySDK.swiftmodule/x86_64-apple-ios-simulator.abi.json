@@ -978,6 +978,94 @@
           },
           {
             "kind": "Var",
+            "name": "annotationHeightAdjustmentFactor",
+            "printedName": "annotationHeightAdjustmentFactor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20PixlNFTsDiscoverySDK22LocationAnnotationNodeC32annotationHeightAdjustmentFactorSdvp",
+            "mangledName": "$s20PixlNFTsDiscoverySDK22LocationAnnotationNodeC32annotationHeightAdjustmentFactorSdvp",
+            "moduleName": "PixlNFTsDiscoverySDK",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20PixlNFTsDiscoverySDK22LocationAnnotationNodeC32annotationHeightAdjustmentFactorSdvg",
+                "mangledName": "$s20PixlNFTsDiscoverySDK22LocationAnnotationNodeC32annotationHeightAdjustmentFactorSdvg",
+                "moduleName": "PixlNFTsDiscoverySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20PixlNFTsDiscoverySDK22LocationAnnotationNodeC32annotationHeightAdjustmentFactorSdvs",
+                "mangledName": "$s20PixlNFTsDiscoverySDK22LocationAnnotationNodeC32annotationHeightAdjustmentFactorSdvs",
+                "moduleName": "PixlNFTsDiscoverySDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20PixlNFTsDiscoverySDK22LocationAnnotationNodeC32annotationHeightAdjustmentFactorSdvM",
+                "mangledName": "$s20PixlNFTsDiscoverySDK22LocationAnnotationNodeC32annotationHeightAdjustmentFactorSdvM",
+                "moduleName": "PixlNFTsDiscoverySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "scaleFactor",
             "printedName": "scaleFactor",
             "children": [
@@ -1066,7 +1154,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(location:view:adjustmentScaleFactor:)",
+            "printedName": "init(location:view:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1093,17 +1181,11 @@
                 "name": "UIView",
                 "printedName": "UIKit.UIView",
                 "usr": "c:objc(cs)UIView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Float",
-                "printedName": "Swift.Float",
-                "usr": "s:Sf"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:20PixlNFTsDiscoverySDK22LocationAnnotationNodeC8location4view21adjustmentScaleFactorACSo10CLLocationCSg_So6UIViewCSftcfc",
-            "mangledName": "$s20PixlNFTsDiscoverySDK22LocationAnnotationNodeC8location4view21adjustmentScaleFactorACSo10CLLocationCSg_So6UIViewCSftcfc",
+            "usr": "s:20PixlNFTsDiscoverySDK22LocationAnnotationNodeC8location4viewACSo10CLLocationCSg_So6UIViewCtcfc",
+            "mangledName": "$s20PixlNFTsDiscoverySDK22LocationAnnotationNodeC8location4viewACSo10CLLocationCSg_So6UIViewCtcfc",
             "moduleName": "PixlNFTsDiscoverySDK",
             "declAttributes": [
               "Custom",
@@ -16338,15 +16420,22 @@
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/ExternalLibraries\/ARCL\/Sources\/ARKit-CoreLocation\/Nodes\/LocationAnnotationNode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 552,
-      "length": 1,
-      "value": "1"
+      "kind": "FloatLiteral",
+      "offset": 907,
+      "length": 3,
+      "value": "1.1"
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/ExternalLibraries\/ARCL\/Sources\/ARKit-CoreLocation\/Nodes\/LocationAnnotationNode.swift",
+      "kind": "FloatLiteral",
+      "offset": 948,
+      "length": 12,
+      "value": "1.0000000000"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/ExternalLibraries\/ARCL\/Sources\/ARKit-CoreLocation\/Nodes\/LocationAnnotationNode.swift",
       "kind": "BooleanLiteral",
-      "offset": 2419,
+      "offset": 2839,
       "length": 5,
       "value": "false"
     },

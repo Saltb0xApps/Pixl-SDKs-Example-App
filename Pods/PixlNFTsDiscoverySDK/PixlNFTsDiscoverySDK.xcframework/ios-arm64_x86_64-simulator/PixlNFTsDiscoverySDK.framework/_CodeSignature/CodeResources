@@ -18,43 +18,43 @@
 		</data>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		fghQsPVjZWIMK2T3ikujAhY0w4s=
+		IqZrjWzDtjtghyYSQ6XCycyZ1gE=
 		</data>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		PzRw+Gc9xOL6e9ewhNzPh7s2rKI=
+		JU8tbhFEscOhhmZnHM/RpbTTaOo=
 		</data>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ZG1eFIqg8sp/evMePeiYuDGV3/Q=
+		J6rAlyhD6to8zOR+7leVC8PTPm4=
 		</data>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		PzRw+Gc9xOL6e9ewhNzPh7s2rKI=
+		JU8tbhFEscOhhmZnHM/RpbTTaOo=
 		</data>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0tnxb+FyWehjpN5yuk46hWJrCY0=
+		0dozxzYyy3gDlgp11KSjTb2UnCM=
 		</data>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		fghQsPVjZWIMK2T3ikujAhY0w4s=
+		IqZrjWzDtjtghyYSQ6XCycyZ1gE=
 		</data>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		B6anaepI4bNGwZdG1CApP3w9Pmo=
+		i8QTXLMzBK29u25tDWpT4m96nik=
 		</data>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		2eF5P4f71D3dLL/RFOrcHa50FSc=
+		AYSs2NRM1agYyftX7h+G3hy91EM=
 		</data>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		B6anaepI4bNGwZdG1CApP3w9Pmo=
+		i8QTXLMzBK29u25tDWpT4m96nik=
 		</data>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		BjBHQX5IEQgJhPqxBdkTNW54tdE=
+		IbGPWqaKajZFyxPwaJEy+/oWttk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -105,70 +105,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ltnOMNgiVNjx/ugCxvGKd4NGMpGdmb+jiTGNWMz30nE=
+			DnOCmZmqA1oHUFg88vFfg/q9ar74pjFi7W2PKabs3LM=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6i2wuK9dvljOSQik+LSWj/UrSgldUOI7Ql/IAmoad1E=
+			cU2VsOnkc38BzulumRaXwNIayTfNvT27+wH8UGk5hFM=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tf1G/k5DkZ4YZ+s/2x8uYXoZw7+rh0VPrGehVHnSfy4=
+			As0tOqjmbR3EbNqrROfLZlIT7sgcaWE5dGGKzSJz3WM=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6i2wuK9dvljOSQik+LSWj/UrSgldUOI7Ql/IAmoad1E=
+			cU2VsOnkc38BzulumRaXwNIayTfNvT27+wH8UGk5hFM=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O+QRWbtZSgyVM8lbrDA8IXY6v5stBmKVuGoaH2CaMT0=
+			D2VQkU6c24uGP3W6xFDTWvD5itdAYCJx9SA77uffb04=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ltnOMNgiVNjx/ugCxvGKd4NGMpGdmb+jiTGNWMz30nE=
+			DnOCmZmqA1oHUFg88vFfg/q9ar74pjFi7W2PKabs3LM=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JKxTEPmg3ZqP4Gm1/f+q4fupFTqIw1FdY2w12DZ+8EY=
+			gGakDt6C/TUFkTvYQodNWeGdouAe1+V9ZYyw57TSHsI=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FSUEXgQ0T9YU9kH4gB1G/C8n3X/GnPrHxtDI5jhzGoA=
+			Kd47TuniR/Ni85Txigxy3+qko200lhoAksDDR09GI70=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JKxTEPmg3ZqP4Gm1/f+q4fupFTqIw1FdY2w12DZ+8EY=
+			gGakDt6C/TUFkTvYQodNWeGdouAe1+V9ZYyw57TSHsI=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h/26RxPjgWGMYxGWM6ar6fEzsiuqQGS65krnego5oDw=
+			bShaGyeIyTWB1S4sgctlH09orKeOJiLROtuzJ3T7hK0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

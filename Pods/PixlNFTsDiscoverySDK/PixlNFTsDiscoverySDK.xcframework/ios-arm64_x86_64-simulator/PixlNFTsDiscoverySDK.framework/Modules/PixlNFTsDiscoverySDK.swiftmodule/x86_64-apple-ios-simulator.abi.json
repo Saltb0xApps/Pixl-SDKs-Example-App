@@ -8507,81 +8507,44 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "PixlNFTsDiscoverViewControllerDelegate",
-        "printedName": "PixlNFTsDiscoverViewControllerDelegate",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "didTapNFTinAR",
-            "printedName": "didTapNFTinAR(viewController:NFT:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "PixlNFTsDiscoverViewController",
-                "printedName": "PixlNFTsDiscoverySDK.PixlNFTsDiscoverViewController",
-                "usr": "c:@M@PixlNFTsDiscoverySDK@objc(cs)PixlNFTsDiscoverViewController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NFTMetaverseItem",
-                "printedName": "PixlNFTsDiscoverySDK.NFTMetaverseItem",
-                "usr": "s:20PixlNFTsDiscoverySDK16NFTMetaverseItemC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20PixlNFTsDiscoverySDK0aB30DiscoverViewControllerDelegateP13didTapNFTinAR04viewG03NFTyAA0abefG0C_AA16NFTMetaverseItemCtF",
-            "mangledName": "$s20PixlNFTsDiscoverySDK0aB30DiscoverViewControllerDelegateP13didTapNFTinAR04viewG03NFTyAA0abefG0C_AA16NFTMetaverseItemCtF",
-            "moduleName": "PixlNFTsDiscoverySDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : PixlNFTsDiscoverySDK.PixlNFTsDiscoverViewControllerDelegate>",
-            "sugared_genericSig": "<Self where Self : PixlNFTsDiscoverySDK.PixlNFTsDiscoverViewControllerDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:20PixlNFTsDiscoverySDK0aB30DiscoverViewControllerDelegateP",
-        "mangledName": "$s20PixlNFTsDiscoverySDK0aB30DiscoverViewControllerDelegateP",
-        "moduleName": "PixlNFTsDiscoverySDK",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "PixlNFTsDiscoverViewController",
         "printedName": "PixlNFTsDiscoverViewController",
         "children": [
           {
             "kind": "Var",
-            "name": "delegate",
-            "printedName": "delegate",
+            "name": "tapHandler",
+            "printedName": "tapHandler",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "PixlNFTsDiscoverySDK.PixlNFTsDiscoverViewControllerDelegate?",
+                "printedName": "((PixlNFTsDiscoverySDK.NFTMetaverseItem) -> ())?",
                 "children": [
                   {
-                    "kind": "TypeNominal",
-                    "name": "PixlNFTsDiscoverViewControllerDelegate",
-                    "printedName": "PixlNFTsDiscoverySDK.PixlNFTsDiscoverViewControllerDelegate",
-                    "usr": "s:20PixlNFTsDiscoverySDK0aB30DiscoverViewControllerDelegateP"
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PixlNFTsDiscoverySDK.NFTMetaverseItem) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFTMetaverseItem",
+                        "printedName": "PixlNFTsDiscoverySDK.NFTMetaverseItem",
+                        "usr": "s:20PixlNFTsDiscoverySDK16NFTMetaverseItemC"
+                      }
+                    ]
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:20PixlNFTsDiscoverySDK0aB22DiscoverViewControllerC8delegateAA0abefG8Delegate_pSgvp",
-            "mangledName": "$s20PixlNFTsDiscoverySDK0aB22DiscoverViewControllerC8delegateAA0abefG8Delegate_pSgvp",
+            "usr": "s:20PixlNFTsDiscoverySDK0aB22DiscoverViewControllerC10tapHandleryAA16NFTMetaverseItemCcSgvp",
+            "mangledName": "$s20PixlNFTsDiscoverySDK0aB22DiscoverViewControllerC10tapHandleryAA16NFTMetaverseItemCcSgvp",
             "moduleName": "PixlNFTsDiscoverySDK",
             "declAttributes": [
               "Custom",
@@ -8599,21 +8562,33 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "PixlNFTsDiscoverySDK.PixlNFTsDiscoverViewControllerDelegate?",
+                    "printedName": "((PixlNFTsDiscoverySDK.NFTMetaverseItem) -> ())?",
                     "children": [
                       {
-                        "kind": "TypeNominal",
-                        "name": "PixlNFTsDiscoverViewControllerDelegate",
-                        "printedName": "PixlNFTsDiscoverySDK.PixlNFTsDiscoverViewControllerDelegate",
-                        "usr": "s:20PixlNFTsDiscoverySDK0aB30DiscoverViewControllerDelegateP"
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(PixlNFTsDiscoverySDK.NFTMetaverseItem) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NFTMetaverseItem",
+                            "printedName": "PixlNFTsDiscoverySDK.NFTMetaverseItem",
+                            "usr": "s:20PixlNFTsDiscoverySDK16NFTMetaverseItemC"
+                          }
+                        ]
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:20PixlNFTsDiscoverySDK0aB22DiscoverViewControllerC8delegateAA0abefG8Delegate_pSgvg",
-                "mangledName": "$s20PixlNFTsDiscoverySDK0aB22DiscoverViewControllerC8delegateAA0abefG8Delegate_pSgvg",
+                "usr": "s:20PixlNFTsDiscoverySDK0aB22DiscoverViewControllerC10tapHandleryAA16NFTMetaverseItemCcSgvg",
+                "mangledName": "$s20PixlNFTsDiscoverySDK0aB22DiscoverViewControllerC10tapHandleryAA16NFTMetaverseItemCcSgvg",
                 "moduleName": "PixlNFTsDiscoverySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -8631,21 +8606,33 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "PixlNFTsDiscoverySDK.PixlNFTsDiscoverViewControllerDelegate?",
+                    "printedName": "((PixlNFTsDiscoverySDK.NFTMetaverseItem) -> ())?",
                     "children": [
                       {
-                        "kind": "TypeNominal",
-                        "name": "PixlNFTsDiscoverViewControllerDelegate",
-                        "printedName": "PixlNFTsDiscoverySDK.PixlNFTsDiscoverViewControllerDelegate",
-                        "usr": "s:20PixlNFTsDiscoverySDK0aB30DiscoverViewControllerDelegateP"
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(PixlNFTsDiscoverySDK.NFTMetaverseItem) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NFTMetaverseItem",
+                            "printedName": "PixlNFTsDiscoverySDK.NFTMetaverseItem",
+                            "usr": "s:20PixlNFTsDiscoverySDK16NFTMetaverseItemC"
+                          }
+                        ]
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:20PixlNFTsDiscoverySDK0aB22DiscoverViewControllerC8delegateAA0abefG8Delegate_pSgvs",
-                "mangledName": "$s20PixlNFTsDiscoverySDK0aB22DiscoverViewControllerC8delegateAA0abefG8Delegate_pSgvs",
+                "usr": "s:20PixlNFTsDiscoverySDK0aB22DiscoverViewControllerC10tapHandleryAA16NFTMetaverseItemCcSgvs",
+                "mangledName": "$s20PixlNFTsDiscoverySDK0aB22DiscoverViewControllerC10tapHandleryAA16NFTMetaverseItemCcSgvs",
                 "moduleName": "PixlNFTsDiscoverySDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -8662,8 +8649,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:20PixlNFTsDiscoverySDK0aB22DiscoverViewControllerC8delegateAA0abefG8Delegate_pSgvM",
-                "mangledName": "$s20PixlNFTsDiscoverySDK0aB22DiscoverViewControllerC8delegateAA0abefG8Delegate_pSgvM",
+                "usr": "s:20PixlNFTsDiscoverySDK0aB22DiscoverViewControllerC10tapHandleryAA16NFTMetaverseItemCcSgvM",
+                "mangledName": "$s20PixlNFTsDiscoverySDK0aB22DiscoverViewControllerC10tapHandleryAA16NFTMetaverseItemCcSgvM",
                 "moduleName": "PixlNFTsDiscoverySDK",
                 "implicit": true,
                 "accessorKind": "_modify"

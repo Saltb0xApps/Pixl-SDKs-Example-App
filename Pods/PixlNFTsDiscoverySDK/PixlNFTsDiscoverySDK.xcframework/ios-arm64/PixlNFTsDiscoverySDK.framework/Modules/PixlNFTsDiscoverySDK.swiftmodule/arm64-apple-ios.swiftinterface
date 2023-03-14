@@ -320,11 +320,9 @@ extension PixlNFTsDiscoverySDK.SceneLocationManager {
   final public func run()
   final public func pause()
 }
-public protocol PixlNFTsDiscoverViewControllerDelegate : AnyObject {
-  func didTapNFTinAR(viewController: PixlNFTsDiscoverySDK.PixlNFTsDiscoverViewController, NFT: PixlNFTsDiscoverySDK.NFTMetaverseItem)
-}
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class PixlNFTsDiscoverViewController : UIKit.UIViewController, UIKit.UIGestureRecognizerDelegate {
-  @_Concurrency.MainActor(unsafe) public var delegate: PixlNFTsDiscoverySDK.PixlNFTsDiscoverViewControllerDelegate?
+  public typealias TapHandler = (_ NFT: PixlNFTsDiscoverySDK.NFTMetaverseItem) -> Swift.Void
+  @_Concurrency.MainActor(unsafe) public var tapHandler: PixlNFTsDiscoverySDK.PixlNFTsDiscoverViewController.TapHandler?
   @_Concurrency.MainActor(unsafe) public var licenseKey: Swift.String?
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func didReceiveMemoryWarning()

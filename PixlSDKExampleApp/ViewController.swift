@@ -11,7 +11,7 @@ import PixlNFTsPlacementSDK
 import PixlNFTsDiscoverySDK
 import PixlNFTsPortalsSDK
 
-class ViewController: UIViewController, PixlNFTsPlacementSDKDelegate, PixlNFTsDiscoverViewControllerDelegate {
+class ViewController: UIViewController, PixlNFTsPlacementSDKDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,7 +35,11 @@ class ViewController: UIViewController, PixlNFTsPlacementSDKDelegate, PixlNFTsDi
 
     @IBAction func showARNFTsDiscovery(_ sender: Any) {
         let pixlDiscoveryVC = PixlNFTsDiscoverViewController.init()
-        pixlDiscoveryVC.delegate = self
+        pixlDiscoveryVC.tapHandler = { NFT in
+            DispatchQueue.main.async {
+                print("Tapped NFT details - tokenID = \(NFT.tokenID ?? ""), contract_address = \(NFT.contractAddress ?? "")")
+            }
+        }
         pixlDiscoveryVC.licenseKey = ""
         pixlDiscoveryVC.modalPresentationStyle = .fullScreen
         self.present(pixlDiscoveryVC, animated: true)
@@ -87,10 +91,5 @@ class ViewController: UIViewController, PixlNFTsPlacementSDKDelegate, PixlNFTsDi
     //MARK: PixlNFTsPlacementSDKDelegate
     func didCompleteNFTPlacement(success: Bool, data: [String : Any], error: String?) {
         print("didCompleteNFTPlacement = \(data)")
-    }
-    
-    //MARK: PixlNFTsDiscoverViewControllerDelegate
-    func didTapNFTinAR(viewController: PixlNFTsDiscoverySDK.PixlNFTsDiscoverViewController, NFT: PixlNFTsDiscoverySDK.NFTMetaverseItem) {
-        print("Tapped NFT details - tokenID = \(NFT.tokenID ?? ""), contract_address = \(NFT.contractAddress ?? "")")
     }
 }

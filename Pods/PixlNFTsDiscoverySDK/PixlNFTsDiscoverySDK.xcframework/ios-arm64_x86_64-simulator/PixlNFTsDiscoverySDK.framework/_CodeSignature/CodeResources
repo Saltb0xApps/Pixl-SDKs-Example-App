@@ -4,9 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>ARMessageView.nib</key>
+		<data>
+		RVyy1VajYRELBtWwa2t+I+dAAOQ=
+		</data>
 		<key>Headers/PixlNFTsDiscoverySDK-Swift.h</key>
 		<data>
-		nBdFmWkqlbl3VnLyCQVps1Ung/0=
+		8DUdXwB/p6+bRmXnbjxZgYtWYVs=
 		</data>
 		<key>Headers/PixlNFTsDiscoverySDK.h</key>
 		<data>
@@ -18,11 +22,11 @@
 		</data>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		2fIGvnlWNSuZV1uSM+m+Azstsz4=
+		NdwdrfznJbA1h36sCQsJbFeUE7Q=
 		</data>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		hNQ8tgWP+Ko6XYecnL3QUYmqggs=
+		gf7w8DrOnqbhCrJlyClaEWf3hcM=
 		</data>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +34,19 @@
 		</data>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		hNQ8tgWP+Ko6XYecnL3QUYmqggs=
+		gf7w8DrOnqbhCrJlyClaEWf3hcM=
 		</data>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		S78urTOMEvSeo0hyMYlGahKsED8=
+		rxeUoIXqjanKiDB8Af9Qbgkdgjc=
 		</data>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		2fIGvnlWNSuZV1uSM+m+Azstsz4=
+		NdwdrfznJbA1h36sCQsJbFeUE7Q=
 		</data>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		a+ge2nzVrfuo4bVmp1qVzWL4XiQ=
+		dFJxvDg1HJNKWjo6CLwPO7EHxto=
 		</data>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +54,11 @@
 		</data>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		a+ge2nzVrfuo4bVmp1qVzWL4XiQ=
+		dFJxvDg1HJNKWjo6CLwPO7EHxto=
 		</data>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		VcTgFi3n67UUI9JTAeW2fH+P00g=
+		hB/STltHs5K3aXxjXO3eLsgwdxM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -84,14 +88,25 @@
 		<data>
 		l039UidbiKuyJMeLcvKHbG0rMDA=
 		</data>
+		<key>promo.mp4</key>
+		<data>
+		IQpEGYtMERfMiktMOuv9Fk3WLqo=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>ARMessageView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nrDV3VunvpUr4pwxZeErIsY/R7P6w0Rc73Ch7O0gKJM=
+			</data>
+		</dict>
 		<key>Headers/PixlNFTsDiscoverySDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			X6bJEKrVYPLhAlEIQCwxvLfAFOVdpmMlhV1jUL/1i4Q=
+			E+C5nOeHNcT3CMp6GMgsJL+K31YoJQCf57VDtdJv37g=
 			</data>
 		</dict>
 		<key>Headers/PixlNFTsDiscoverySDK.h</key>
@@ -105,14 +120,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7wXbxrU9Q5VbNbei6QVcDokVeiBV0GKDuiP1jB8dhyw=
+			J7S0pLJJlEM/NT8bRPXQ5dA63f6BeHHj2EpEEOqVC3I=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EvE8ZMFRYWUSt1NejfPFXIJKoGSDiNqcI/6kdF5xZv4=
+			2dDytrSDvKJ7DvONl7PXpvVawKqVX2aHiEChENoVtRQ=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -126,28 +141,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EvE8ZMFRYWUSt1NejfPFXIJKoGSDiNqcI/6kdF5xZv4=
+			2dDytrSDvKJ7DvONl7PXpvVawKqVX2aHiEChENoVtRQ=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SvyYO8J35mrls5BGHGNK0VQmJOQd2SAlXaScFUA2gLI=
+			LvqeGvgNx5P3Y3I6EibE3N3t/8Zqpnq0YFt7ivFoOek=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7wXbxrU9Q5VbNbei6QVcDokVeiBV0GKDuiP1jB8dhyw=
+			J7S0pLJJlEM/NT8bRPXQ5dA63f6BeHHj2EpEEOqVC3I=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fuIDD1hPAWPEXgXs+2RcXGty4yUQejviMwY8uqrFuKI=
+			jtmjiRIqK3Z0UHdhvayRiO3GwnyrnsX0zI8y5INUNEg=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -161,14 +176,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fuIDD1hPAWPEXgXs+2RcXGty4yUQejviMwY8uqrFuKI=
+			jtmjiRIqK3Z0UHdhvayRiO3GwnyrnsX0zI8y5INUNEg=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsDiscoverySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4Bb/wmxBXTcxnPgc1VlisM/c5+Lh5RuI9RPmrXWAKEU=
+			Vkw08ec8FyvPaU1Zq8nYDcDDWWh2mmC3KU1t0z8YxNw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -218,6 +233,13 @@
 			<key>hash2</key>
 			<data>
 			7PjskuLXhR32MbmG1hlHGu2r73npLkiN9Z8TWGRyPM8=
+			</data>
+		</dict>
+		<key>promo.mp4</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			R+6xpU0paPSzobysCABv4sf1+W6notYEFnRM0LdBn8A=
 			</data>
 		</dict>
 	</dict>

@@ -1,6 +1,6 @@
 {
   "name": "PixlNFTsPlacementSDK",
-  "version": "1.3.7",
+  "version": "1.3.8",
   "summary": "place nfts from the polygon blockchain anywhere in AR with persistence",
   "homepage": "https://www.pixlapp.xyz",
   "authors": {

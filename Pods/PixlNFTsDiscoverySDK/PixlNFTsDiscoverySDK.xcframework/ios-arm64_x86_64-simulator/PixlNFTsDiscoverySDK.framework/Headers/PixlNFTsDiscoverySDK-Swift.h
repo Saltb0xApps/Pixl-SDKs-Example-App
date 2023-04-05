@@ -398,7 +398,6 @@ SWIFT_CLASS("_TtC20PixlNFTsDiscoverySDK30PixlNFTsDiscoverViewController")
 - (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
 
-
 @class UICollectionViewCell;
 
 @interface PixlNFTsDiscoverViewController (SWIFT_EXTENSION(PixlNFTsDiscoverySDK)) <UICollectionViewDataSource>
@@ -406,6 +405,7 @@ SWIFT_CLASS("_TtC20PixlNFTsDiscoverySDK30PixlNFTsDiscoverViewController")
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView SWIFT_WARN_UNUSED_RESULT;
 - (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 
 @protocol SCNSceneRenderer;
@@ -904,7 +904,6 @@ SWIFT_CLASS("_TtC20PixlNFTsDiscoverySDK30PixlNFTsDiscoverViewController")
 - (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
 
-
 @class UICollectionViewCell;
 
 @interface PixlNFTsDiscoverViewController (SWIFT_EXTENSION(PixlNFTsDiscoverySDK)) <UICollectionViewDataSource>
@@ -912,6 +911,7 @@ SWIFT_CLASS("_TtC20PixlNFTsDiscoverySDK30PixlNFTsDiscoverViewController")
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView SWIFT_WARN_UNUSED_RESULT;
 - (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 
 @protocol SCNSceneRenderer;

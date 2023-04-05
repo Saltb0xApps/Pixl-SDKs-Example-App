@@ -148,6 +148,7 @@ extension SceneKit.SCNVector3 {
 }
 public protocol LNTouchDelegate : AnyObject {
   func annotationNodeTouched(node: PixlNFTsDiscoverySDK.AnnotationNode)
+  func scnNodeTouched(node: SceneKit.SCNNode)
   func locationNodeTouched(node: PixlNFTsDiscoverySDK.LocationNode)
   func artouchesEnded(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
 }
@@ -349,6 +350,7 @@ extension PixlNFTsDiscoverySDK.PixlNFTsDiscoverViewController : ARKit.ARSCNViewD
   @_Concurrency.MainActor(unsafe) @objc dynamic public func renderer(_ renderer: any SceneKit.SCNSceneRenderer, didRemove node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
 }
 extension PixlNFTsDiscoverySDK.PixlNFTsDiscoverViewController : PixlNFTsDiscoverySDK.LNTouchDelegate {
+  @_Concurrency.MainActor(unsafe) public func scnNodeTouched(node: SceneKit.SCNNode)
   @_Concurrency.MainActor(unsafe) public func annotationNodeTouched(node: PixlNFTsDiscoverySDK.AnnotationNode)
   @_Concurrency.MainActor(unsafe) public func locationNodeTouched(node: PixlNFTsDiscoverySDK.LocationNode)
   @_Concurrency.MainActor(unsafe) public func artouchesEnded(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)

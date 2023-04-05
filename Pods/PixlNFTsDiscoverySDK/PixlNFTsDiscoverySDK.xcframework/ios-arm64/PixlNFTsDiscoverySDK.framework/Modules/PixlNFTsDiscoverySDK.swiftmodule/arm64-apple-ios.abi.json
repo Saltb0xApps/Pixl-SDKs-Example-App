@@ -3355,6 +3355,33 @@
           },
           {
             "kind": "Function",
+            "name": "scnNodeTouched",
+            "printedName": "scnNodeTouched(node:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNNode",
+                "printedName": "SceneKit.SCNNode",
+                "usr": "c:objc(cs)SCNNode"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20PixlNFTsDiscoverySDK15LNTouchDelegateP14scnNodeTouched4nodeySo7SCNNodeC_tF",
+            "mangledName": "$s20PixlNFTsDiscoverySDK15LNTouchDelegateP14scnNodeTouched4nodeySo7SCNNodeC_tF",
+            "moduleName": "PixlNFTsDiscoverySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PixlNFTsDiscoverySDK.LNTouchDelegate>",
+            "sugared_genericSig": "<Self where Self : PixlNFTsDiscoverySDK.LNTouchDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "locationNodeTouched",
             "printedName": "locationNodeTouched(node:)",
             "children": [
@@ -9411,6 +9438,34 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scnNodeTouched",
+            "printedName": "scnNodeTouched(node:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNNode",
+                "printedName": "SceneKit.SCNNode",
+                "usr": "c:objc(cs)SCNNode"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20PixlNFTsDiscoverySDK0aB22DiscoverViewControllerC14scnNodeTouched4nodeySo7SCNNodeC_tF",
+            "mangledName": "$s20PixlNFTsDiscoverySDK0aB22DiscoverViewControllerC14scnNodeTouched4nodeySo7SCNNodeC_tF",
+            "moduleName": "PixlNFTsDiscoverySDK",
+            "declAttributes": [
               "Custom",
               "AccessControl"
             ],
@@ -18365,70 +18420,70 @@
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/ExternalLibraries\/ARCL\/Sources\/ARKit-CoreLocation\/SceneLocationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14140,
+      "offset": 14302,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/ExternalLibraries\/ARCL\/Sources\/ARKit-CoreLocation\/SceneLocationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14417,
+      "offset": 14579,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/ExternalLibraries\/ARCL\/Sources\/ARKit-CoreLocation\/SceneLocationView.swift",
       "kind": "Array",
-      "offset": 14445,
+      "offset": 14607,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/ExternalLibraries\/ARCL\/Sources\/ARKit-CoreLocation\/SceneLocationView.swift",
       "kind": "FloatLiteral",
-      "offset": 16099,
+      "offset": 16261,
       "length": 4,
       "value": "-2.0"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/ExternalLibraries\/ARCL\/Sources\/ARKit-CoreLocation\/SceneLocationView.swift",
       "kind": "StringLiteral",
-      "offset": 16276,
+      "offset": 16438,
       "length": 28,
       "value": "\"we don't have an elevation\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/ExternalLibraries\/ARCL\/Sources\/ARKit-CoreLocation\/SceneLocationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 16801,
+      "offset": 16963,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/ExternalLibraries\/ARCL\/Sources\/ARKit-CoreLocation\/SceneLocationView.swift",
       "kind": "StringLiteral",
-      "offset": 18008,
+      "offset": 18170,
       "length": 28,
       "value": "\"we don't have an elevation\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/ExternalLibraries\/ARCL\/Sources\/ARKit-CoreLocation\/SceneLocationView.swift",
       "kind": "FloatLiteral",
-      "offset": 18177,
+      "offset": 18339,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/ExternalLibraries\/ARCL\/Sources\/ARKit-CoreLocation\/SceneLocationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 18414,
+      "offset": 18576,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/ExternalLibraries\/ARCL\/Sources\/ARKit-CoreLocation\/SceneLocationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 20159,
+      "offset": 20321,
       "length": 5,
       "value": "false"
     },
@@ -21004,602 +21059,644 @@
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 26741,
+      "offset": 26727,
       "length": 63,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 26773,
+      "offset": 26759,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 26776,
+      "offset": 26762,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 26800,
+      "offset": 26786,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 26803,
+      "offset": 26789,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 26871,
+      "offset": 26849,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 27108,
+      "offset": 27090,
       "length": 63,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 27140,
+      "offset": 27122,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 27143,
+      "offset": 27125,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 27167,
+      "offset": 27149,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 27170,
+      "offset": 27152,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 27230,
+      "offset": 27220,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 27457,
+      "length": 63,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 27489,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 27492,
+      "length": 1,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 27516,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 27519,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27579,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 27795,
+      "offset": 28144,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 27924,
+      "offset": 28273,
       "length": 63,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 27956,
+      "offset": 28305,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 27959,
+      "offset": 28308,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 27983,
+      "offset": 28332,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 27986,
+      "offset": 28335,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 28061,
+      "offset": 28410,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 28502,
+      "offset": 28851,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 28528,
+      "offset": 28877,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 28661,
+      "offset": 29010,
       "length": 63,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 28693,
+      "offset": 29042,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 28696,
+      "offset": 29045,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 28720,
+      "offset": 29069,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 28723,
+      "offset": 29072,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 28784,
+      "offset": 29133,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 28791,
+      "offset": 29140,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 28850,
+      "offset": 29199,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 28938,
+      "offset": 29287,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 29010,
+      "offset": 29359,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29128,
+      "offset": 29477,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 29211,
+      "offset": 29560,
       "length": 8,
       "value": "1609.344"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29271,
+      "offset": 29620,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29274,
+      "offset": 29623,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 29388,
+      "offset": 29737,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29426,
+      "offset": 29775,
       "length": 3,
       "value": "999"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 29467,
+      "offset": 29816,
       "length": 58,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29494,
+      "offset": 29843,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29518,
+      "offset": 29867,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 29521,
+      "offset": 29870,
       "length": 2,
       "value": "\" km\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 29581,
+      "offset": 29930,
       "length": 28,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 29606,
+      "offset": 29955,
       "length": 1,
       "value": "\" m\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 29664,
+      "offset": 30013,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29707,
+      "offset": 30056,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 29751,
+      "offset": 30100,
       "length": 22,
       "value": "\"Nearby. Look around!\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 29836,
+      "offset": 30185,
       "length": 93,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 29923,
+      "offset": 30272,
       "length": 4,
       "value": "\" walk\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 29992,
+      "offset": 30341,
       "length": 20,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 30011,
+      "offset": 30360,
       "length": 13,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 30061,
+      "offset": 30410,
       "length": 28,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 30088,
+      "offset": 30437,
       "length": 13,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 30479,
+      "offset": 30828,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 30644,
+      "offset": 30993,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 30654,
+      "offset": 31003,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 30798,
+      "offset": 31147,
       "length": 2,
       "value": "28"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 30838,
+      "offset": 31187,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 30956,
+      "offset": 31305,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 30966,
+      "offset": 31315,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 30990,
+      "offset": 31339,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 31376,
+      "offset": 31725,
       "length": 32,
       "value": "\"location updated - \""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 31407,
+      "offset": 31756,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "Array",
-      "offset": 31747,
+      "offset": 32096,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "Array",
-      "offset": 31778,
+      "offset": 32127,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 31917,
+      "offset": 32266,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 32114,
+      "offset": 32463,
       "length": 4,
       "value": "\", \""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 32129,
+      "offset": 32478,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 32136,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 32235,
-      "length": 4,
-      "value": "\", \""
-    },
-    {
-      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 32249,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 32256,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 32479,
-      "length": 3,
-      "value": "180"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 32485,
-      "length": 3,
-      "value": "360"
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 32584,
+      "length": 4,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 32598,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 32492,
-      "length": 3,
-      "value": "360"
+      "offset": 32605,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 32498,
+      "offset": 32828,
       "length": 3,
       "value": "180"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 32527,
+      "offset": 32834,
+      "length": 3,
+      "value": "360"
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 32841,
+      "length": 3,
+      "value": "360"
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 32847,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 32876,
       "length": 3,
       "value": "-25"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 32617,
+      "offset": 32966,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 32949,
+      "offset": 33298,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 33029,
+      "offset": 33378,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 33610,
+      "offset": 33959,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 33681,
+      "offset": 34030,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 33798,
+      "offset": 34147,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 34239,
+      "offset": 34588,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 34343,
+      "offset": 34692,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 34666,
+      "offset": 35015,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 34678,
+      "offset": 35027,
       "length": 2,
       "value": "40"
     },

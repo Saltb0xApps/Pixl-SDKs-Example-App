@@ -17460,21 +17460,21 @@
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/ExternalLibraries\/ARCL\/Sources\/ARKit-CoreLocation\/Nodes\/LocationAnnotationNode.swift",
       "kind": "IntegerLiteral",
-      "offset": 5286,
+      "offset": 5235,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/ExternalLibraries\/ARCL\/Sources\/ARKit-CoreLocation\/Nodes\/LocationAnnotationNode.swift",
       "kind": "IntegerLiteral",
-      "offset": 5295,
+      "offset": 5244,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/ExternalLibraries\/ARCL\/Sources\/ARKit-CoreLocation\/Nodes\/LocationAnnotationNode.swift",
       "kind": "IntegerLiteral",
-      "offset": 5343,
+      "offset": 5292,
       "length": 1,
       "value": "0"
     },
@@ -20941,7 +20941,7 @@
       "kind": "StringLiteral",
       "offset": 23277,
       "length": 30,
-      "value": "\"%.5f, %.5f\n+\/- %.1fm v1.1.6\""
+      "value": "\"%.5f, %.5f\n+\/- %.1fm v1.1.8\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverySDK\/PixlNFTsDiscoverViewController.swift",
